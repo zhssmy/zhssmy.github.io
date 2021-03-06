@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sat, 06 Mar 2021 18:32:08 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sat, 06 Mar 2021 19:53:08 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -2436,18 +2436,26 @@ $$&lt;/p&gt;
             </item>
         
             <item>
-                <title>MathJax渲染数学公式</title>
-                <link>https://example.com/posts/hugo&#43;mathjax%E5%AE%9E%E7%8E%B0%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E7%9A%84%E6%B8%B2%E6%9F%93/</link>
-                <guid isPermaLink="true">https://example.com/posts/hugo&#43;mathjax%E5%AE%9E%E7%8E%B0%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E7%9A%84%E6%B8%B2%E6%9F%93/</guid>
+                <title>如何在Hugo中使用MathJax渲染数学公式</title>
+                <link>https://example.com/posts/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8mathjax%E6%B8%B2%E6%9F%93%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</link>
+                <guid isPermaLink="true">https://example.com/posts/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8mathjax%E6%B8%B2%E6%9F%93%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</guid>
                 <pubDate>Thu, 20 Feb 2020 21:30:12 &#43;0800</pubDate>
                 
                     <author>zccon1996@163.com (海上生明月)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;今天被一个博友咨询如何往博客中添加数学公式，（在这篇文章没写之前，我的博客还是不支持数学公式的），由于还没有支持数学公式的需求，所以我也一直没有折腾过这个。不过之前有看到过相关的文章，于是在网上找找资料便自己试了试，下面的内容是从网上摘录下来的部分笔记，完整的内容我已贴在了文章的最下面，欢迎访问原文。（本文只作自己的修改记录）&lt;/p&gt;
-&lt;h1 id=&#34;在footerhtml文件中添加代码&#34;&gt;在footer.html文件中添加代码&lt;/h1&gt;
-&lt;p&gt;在主题文件夹（\themes\meme\layouts\partials\custom）下的&lt;span class=&#34;filenamestyle&#34;&gt;footer.html&lt;/span&gt;中，添加下面代码&lt;/p&gt;
+                    <description>&lt;p&gt;今天收到一位博友的咨询邮件，关于如何在Hugo博客中添加数学公式的问题。（在这篇文章还没写之前，我的博客其实是不支持数学公式渲染的）。&lt;/p&gt;
+&lt;p&gt;由于在写博文的时候还没有需要插入数学公式的场景，所以我也一直没有折腾过这方面的东西。为了解决这位博友的问题同时完善自己的博客，于是我抱着试一试的想法在网上查找相关资料。&lt;/p&gt;
+&lt;p&gt;下面的内容是从网上摘录下来的部分笔记。（本文只代表自己的修改记录）
+
+
+
+&lt;div class=&#34;notice notice-info&#34; &gt;
+    &lt;div class=&#34;notice-title&#34; &gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 8a248 248 0 100 496 248 248 0 000-496zm0 110a42 42 0 110 84 42 42 0 010-84zm56 254c0 7-5 12-12 12h-88c-7 0-12-5-12-12v-24c0-7 5-12 12-12h12v-64h-12c-7 0-12-5-12-12v-24c0-7 5-12 12-12h64c7 0 12 5 12 12v100h12c7 0 12 5 12 12v24z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;p&gt;欢迎访问&lt;a href=&#34;https://www.jianshu.com/p/5fd2c9b3b638&#34;&gt;原文&lt;/a&gt;。&lt;/p&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;在footerhtml文件中添加代码&#34;&gt;在footer.html文件中添加代码&lt;/h3&gt;
+&lt;p&gt;在主题文件夹&lt;code&gt;\themes\meme\layouts\partials\custom&lt;/code&gt;下的&lt;span class=&#34;filenamestyle&#34;&gt;footer.html&lt;/span&gt;文件中，添加下面代码&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -2486,17 +2494,10 @@ $$&lt;/p&gt;
 &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;text/javascript&amp;#34;&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;async&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/script&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;这样自己的博客就已经可以插入数学公式了。&lt;/p&gt;
-&lt;p&gt;在下篇文章《LaTeX数学符号公式汇总》中进一步了解如何使用各种数学符号与数学公式。&lt;/p&gt;
-
-
-
-&lt;div class=&#34;notice notice-note&#34; &gt;
-    &lt;div class=&#34;notice-title&#34; &gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M504 256a248 248 0 11-496 0 248 248 0 01496 0zm-248 50a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;p&gt;作者：一念一觉一圣人&lt;/br&gt;
-链接：https://www.jianshu.com/p/5fd2c9b3b638&lt;/br&gt;
-来源：简书&lt;/br&gt;
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。&lt;/p&gt;&lt;/div&gt;
-
+&lt;/div&gt;&lt;p&gt;保存以上代码就可以实现在自己的博客中插入数学公式了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;关于如何插入各种类型的数学公式及符号，请参考文章&lt;a href=&#34;https://zhssmy.github.io/posts/latex%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7%E4%B8%8E%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E6%B1%87%E6%80%BB/&#34;&gt;LaTeX数学符号公式汇总&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
                 
                 
@@ -2526,6 +2527,12 @@ $$&lt;/p&gt;
                                 
                                 
                                     <category domain="https://example.com/tags/mathjax/">MathJax</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://example.com/tags/hugo/">Hugo</category>
                                 
                             
                         

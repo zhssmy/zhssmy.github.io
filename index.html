@@ -56,7 +56,7 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "datePublished": "2021-03-04T10:29:43+00:00",
-        "dateModified": "2021-03-06T18:17:12+08:00",
+        "dateModified": "2021-03-06T19:51:50+08:00",
         "url": "https://example.com/",
         "description": "MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。",
         "image": "https://example.com/icons/apple-touch-icon.png",
@@ -344,7 +344,7 @@
         
             <article class="content post home h-entry">
                 <h2 class="post-title p-name">
-                    <a href="/posts/hugo&#43;mathjax%E5%AE%9E%E7%8E%B0%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E7%9A%84%E6%B8%B2%E6%9F%93/" class="summary-title-link u-url">MathJax渲染数学公式</a>
+                    <a href="/posts/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8mathjax%E6%B8%B2%E6%9F%93%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/" class="summary-title-link u-url">如何在Hugo中使用MathJax渲染数学公式</a>
                 </h2>
                 
                     
@@ -373,11 +373,11 @@
 
                 
                 <summary class="summary p-summary">
-                    今天被一个博友咨询如何往博客中添加数学公式，（在这篇文章没写之前，我的博客还是不支持数学公式的），由于还没有支持数学公式的需求，所以我也一直没有折腾过这个。不过之前有看到过相关的文章，于是在网上找找资料便自己试了试，下面……
+                    今天收到一位博友的咨询邮件，关于如何在Hugo博客中添加数学公式的问题。（在这篇文章还没写之前，我的博客其实是不支持数学公式渲染的）。 由于在写博文的时候还没有需要插入数学公式的场景，所以我也一直没有折腾过这方面的东西。为……
                 </summary>
                 
                     <div class="read-more-container">
-                        <a href="/posts/hugo&#43;mathjax%E5%AE%9E%E7%8E%B0%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E7%9A%84%E6%B8%B2%E6%9F%93/" class="read-more-link">阅读更多 »</a>
+                        <a href="/posts/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8mathjax%E6%B8%B2%E6%9F%93%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/" class="read-more-link">阅读更多 »</a>
                     </div>
                 
             </article>
@@ -414,6 +414,23 @@
 
 
             
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          displayMath: [['$$','$$'], ['\[','\]']],
+          processEscapes: true,
+          processEnvironments: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+          TeX: {
+              equationNumbers: { autoNumber: "AMS" },
+              extensions: ["AMSmath.js", "AMSsymbols.js"]
+          }
+      }
+  });
+</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
         </div>
     </footer>
 

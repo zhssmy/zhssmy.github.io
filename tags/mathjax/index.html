@@ -54,7 +54,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "datePublished": "2021-03-04T10:29:43+00:00",
-        "dateModified": "2020-06-22T01:41:00+08:00",
+        "dateModified": "2021-03-06T19:51:50+08:00",
         "url": "https://example.com/tags/mathjax/",
         "name": "Tags: MathJax",
         "description": "MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。",
@@ -249,7 +249,7 @@
                                 <ul class="list-part">
         
             <li class="list-item">
-                <a href="/posts/hugo&#43;mathjax%E5%AE%9E%E7%8E%B0%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E7%9A%84%E6%B8%B2%E6%9F%93/" class="list-item-title">MathJax渲染数学公式</a>
+                <a href="/posts/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8mathjax%E6%B8%B2%E6%9F%93%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/" class="list-item-title">如何在Hugo中使用MathJax渲染数学公式</a>
                 <time datetime="2020-02-20T21:30:12&#43;08:00" class="list-item-time">02 月 20 日</time>
             </li>
         
@@ -280,6 +280,23 @@
 
 
             
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          displayMath: [['$$','$$'], ['\[','\]']],
+          processEscapes: true,
+          processEnvironments: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+          TeX: {
+              equationNumbers: { autoNumber: "AMS" },
+              extensions: ["AMSmath.js", "AMSsymbols.js"]
+          }
+      }
+  });
+</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
         </div>
     </footer>
 

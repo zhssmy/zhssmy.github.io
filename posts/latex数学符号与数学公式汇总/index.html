@@ -1788,7 +1788,7 @@ $$</p>
             <ul class="related-list">
                 
                     <li class="related-item">
-                        <a href="/posts/hugo&#43;mathjax%E5%AE%9E%E7%8E%B0%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E7%9A%84%E6%B8%B2%E6%9F%93/" class="related-link">MathJax渲染数学公式</a>
+                        <a href="/posts/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8mathjax%E6%B8%B2%E6%9F%93%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/" class="related-link">如何在Hugo中使用MathJax渲染数学公式</a>
                     </li>
                 
                     <li class="related-item">
@@ -1860,7 +1860,7 @@ $$</p>
             
             
                 <li class="post-nav-next">
-                    <a href="/posts/hugo&#43;mathjax%E5%AE%9E%E7%8E%B0%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E7%9A%84%E6%B8%B2%E6%9F%93/" rel="next">MathJax渲染数学公式 &gt;</a>
+                    <a href="/posts/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8mathjax%E6%B8%B2%E6%9F%93%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/" rel="next">如何在Hugo中使用MathJax渲染数学公式 &gt;</a>
                 </li>
             
         </ul>
@@ -1890,6 +1890,23 @@ $$</p>
 
 
             
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          displayMath: [['$$','$$'], ['\[','\]']],
+          processEscapes: true,
+          processEnvironments: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+          TeX: {
+              equationNumbers: { autoNumber: "AMS" },
+              extensions: ["AMSmath.js", "AMSsymbols.js"]
+          }
+      }
+  });
+</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
         </div>
     </footer>
 
