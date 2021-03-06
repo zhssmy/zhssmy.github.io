@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">海上生明月</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2021-03-05T18:44:23&#43;08:00</updated>
+    <updated>2021-03-06T17:57:26&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -20,26 +20,26 @@
             <title type="text">从0到1打造Hugo博客</title>
             <link rel="alternate" type="text/html" href="https://example.com/posts/%E4%BB%8E0%E5%88%B01%E6%89%93%E9%80%A0hugo%E5%8D%9A%E5%AE%A2/" />
             <id>https://example.com/posts/%E4%BB%8E0%E5%88%B01%E6%89%93%E9%80%A0hugo%E5%8D%9A%E5%AE%A2/</id>
-            <updated>2021-03-05T18:21:57&#43;08:00</updated>
+            <updated>2021-03-06T17:54:42&#43;08:00</updated>
             <published>2021-03-05T11:00:00&#43;08:00</published>
             <author>
                     <name>海上生明月</name>
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">本篇博文主要记录本Hugo博客从0到1的步骤，但其适用于其他大多数hugo博客的搭建流程，仅仅区别于主题的不同，欢迎大家参考并指出问题。 相关环境：Wi……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">本篇博文主要记录本Hugo博客从0到1的步骤，但其适用于其他大多数hugo博客的搭建流程，仅仅区别于主题的不同，欢迎大家参考并指出问题。 相关环境：Windows10 64位 + Hugo 0.81 + Git 2.30.1 具体流程 准备Hugo文件 下载hugo文……</summary>
             
                 <content type="html">&lt;p&gt;本篇博文主要记录本Hugo博客从0到1的步骤，但其适用于其他大多数hugo博客的搭建流程，仅仅区别于主题的不同，欢迎大家参考并指出问题。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;相关环境：Windows10 64位 + Hugo 0.81 + Git 2.30.1&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;具体流程&#34;&gt;具体流程&lt;/h2&gt;
-&lt;h3 id=&#34;1-准备hugo文件&#34;&gt;1. 准备Hugo文件&lt;/h3&gt;
+&lt;h3 id=&#34;准备hugo文件&#34;&gt;准备Hugo文件&lt;/h3&gt;
 &lt;p&gt;下载hugo文件（extended扩展版）并解压放在自定文件夹（例：我存放的目录为&lt;code&gt;D:\Hugo\bin&lt;/code&gt;）&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;Hugo下载地址&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;2-配置环境变量&#34;&gt;2. 配置环境变量。&lt;/h3&gt;
+&lt;h3 id=&#34;配置环境变量&#34;&gt;配置环境变量。&lt;/h3&gt;
 &lt;p&gt;在&lt;code&gt;我的电脑-&amp;gt;属性-&amp;gt;高级系统设置-&amp;gt;环境变量-&amp;gt;系统变量-&amp;gt;Path&lt;/code&gt;中增加一条&lt;code&gt;D:\Hugo\bin&lt;/code&gt;，即解压后的hugo.exe文件存放的目录。&lt;/p&gt;
 
 
@@ -47,8 +47,8 @@
 &lt;div class=&#34;notice notice-note&#34; &gt;
     &lt;div class=&#34;notice-title&#34; &gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M504 256a248 248 0 11-496 0 248 248 0 01496 0zm-248 50a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;D:\Hugo\bin&lt;/code&gt;修改为自己对应文件位置路径&lt;/p&gt;&lt;/div&gt;
 
-&lt;h3 id=&#34;3-检查版本&#34;&gt;3. 检查版本&lt;/h3&gt;
-&lt;p&gt;开cmd终端执行hugo version命令查看是否安装成功（是否输出Hugo版本信息）&lt;/p&gt;
+&lt;h3 id=&#34;检查版本&#34;&gt;检查版本&lt;/h3&gt;
+&lt;p&gt;打开cmd终端执行hugo version命令查看是否安装成功（是否输出Hugo版本信息）&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -57,7 +57,7 @@
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;hugo version
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;4-生成博客&#34;&gt;4. 生成博客&lt;/h3&gt;
+&lt;/div&gt;&lt;h3 id=&#34;生成博客&#34;&gt;生成博客&lt;/h3&gt;
 &lt;p&gt;打开bash命令窗口，进入&lt;code&gt;D:\Hugo\Sites&lt;/code&gt;文件夹（生成站点的文件夹，自定义），输入命令&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -73,7 +73,7 @@
 &lt;div class=&#34;notice notice-info&#34; &gt;
     &lt;div class=&#34;notice-title&#34; &gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 8a248 248 0 100 496 248 248 0 000-496zm0 110a42 42 0 110 84 42 42 0 010-84zm56 254c0 7-5 12-12 12h-88c-7 0-12-5-12-12v-24c0-7 5-12 12-12h12v-64h-12c-7 0-12-5-12-12v-24c0-7 5-12 12-12h64c7 0 12 5 12 12v100h12c7 0 12 5 12 12v24z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;p&gt;命令执行完成之后在&lt;code&gt;D:\Hugo\Sites\myblog&lt;/code&gt;文件夹下自动生成博客需要的文件&lt;/p&gt;&lt;/div&gt;
 
-&lt;h3 id=&#34;5-安装主题&#34;&gt;5. 安装主题&lt;/h3&gt;
+&lt;h3 id=&#34;安装主题&#34;&gt;安装主题&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;hugo主题网站&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -96,7 +96,7 @@ git submodule add --depth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; https://g
 &lt;div class=&#34;notice notice-info&#34; &gt;
     &lt;div class=&#34;notice-title&#34; &gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 8a248 248 0 100 496 248 248 0 000-496zm0 110a42 42 0 110 84 42 42 0 010-84zm56 254c0 7-5 12-12 12h-88c-7 0-12-5-12-12v-24c0-7 5-12 12-12h12v-64h-12c-7 0-12-5-12-12v-24c0-7 5-12 12-12h64c7 0 12 5 12 12v100h12c7 0 12 5 12 12v24z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;myblog&lt;/code&gt;为上一步自动生成的文件夹&lt;/p&gt;&lt;/div&gt;
 
-&lt;h3 id=&#34;6-开始写作&#34;&gt;6. 开始写作&lt;/h3&gt;
+&lt;h3 id=&#34;开始写作&#34;&gt;开始写作&lt;/h3&gt;
 &lt;p&gt;将 &lt;code&gt;config.toml&lt;/code&gt; 替换为示例配置。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -123,7 +123,7 @@ git submodule add --depth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; https://g
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;hugo new &lt;span class=&#34;s2&#34;&gt;&amp;#34;about/_index.md&amp;#34;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;7-本地启动&#34;&gt;7. 本地启动&lt;/h3&gt;
+&lt;/div&gt;&lt;h3 id=&#34;本地启动&#34;&gt;本地启动&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -140,9 +140,9 @@ git submodule add --depth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; https://g
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;hugo server -D
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;8-准备github&#34;&gt;8. 准备GitHub&lt;/h3&gt;
+&lt;/div&gt;&lt;h3 id=&#34;准备github&#34;&gt;准备GitHub&lt;/h3&gt;
 &lt;p&gt;创建个人GitHub账号与仓库（命名为【GitHub账号名.github.io】）&lt;/p&gt;
-&lt;h3 id=&#34;9-部署到github&#34;&gt;9. 部署到GitHub&lt;/h3&gt;
+&lt;h3 id=&#34;部署到github&#34;&gt;部署到GitHub&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -176,7 +176,7 @@ git remote add origin https://github.com/zhssmy/zhssmy.github.io.git
 git push -u origin master
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;10-访问网站&#34;&gt;10. 访问网站&lt;/h3&gt;
+&lt;/div&gt;&lt;h3 id=&#34;访问网站&#34;&gt;访问网站&lt;/h3&gt;
 &lt;p&gt;访问网址：&lt;a href=&#34;https://zhssmy.github.io&#34;&gt;zhssmy.github.io&lt;/a&gt;&lt;/p&gt;
 </content>
             
@@ -427,7 +427,7 @@ git push -u origin master
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">1. 百度地图API SDK之Web服务API 1.1 服务介绍 1.1.1 普通IP定位 普通IP定位1是一套以HTTP/HTTPS形式提供的轻量级定位接口，用户可以通过该服务……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">1. 百度地图API SDK之Web服务API 1.1 服务介绍 1.1.1 普通IP定位 普通IP定位1是一套以HTTP/HTTPS形式提供的轻量级定位接口，用户可以通过该服务，根据IP定位来获取大致位置。 目前该服务同时支持 IPv4 和 IPv6 来获取位置信息。……</summary>
             
                 <content type="html">&lt;h2 id=&#34;1-百度地图api-sdk之web服务api&#34;&gt;1. 百度地图API SDK之Web服务API&lt;/h2&gt;
 &lt;h3 id=&#34;11-服务介绍&#34;&gt;1.1 服务介绍&lt;/h3&gt;
@@ -1097,7 +1097,7 @@ git push -u origin master
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">这篇文章主要是为了把大部分常用的LaTex数学符号和公式整理到一起，方便自己和大家以后查阅使用，虽然网上的相关文章很多，但我还是花了点时间自己整理了一……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">这篇文章主要是为了把大部分常用的LaTex数学符号和公式整理到一起，方便自己和大家以后查阅使用，虽然网上的相关文章很多，但我还是花了点时间自己整理了一下，基本上都是网友们整理过的相关内容。从公式的使用到公式的各种常用运算……</summary>
             
                 <content type="html">&lt;p&gt;这篇文章主要是为了把大部分常用的LaTex数学符号和公式整理到一起，方便自己和大家以后查阅使用，虽然网上的相关文章很多，但我还是花了点时间自己整理了一下，基本上都是网友们整理过的相关内容。从公式的使用到公式的各种常用运算符再到一些数学常用符号和特定的数学公式形式以及其他相关符号的整理。内容肯定是不完善的，后续如果有需要更改或添加的地方，我会进行修改的。&lt;/p&gt;
 &lt;h2 id=&#34;插入公式&#34;&gt;插入公式&lt;/h2&gt;
@@ -2501,7 +2501,7 @@ $$&lt;/p&gt;
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">今天被一个博友咨询如何往博客中添加数学公式，（在这篇文章没写之前，我的博客还是不支持数学公式的），由于还没有支持数学公式的需求，所以我也一直没有折腾过……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">今天被一个博友咨询如何往博客中添加数学公式，（在这篇文章没写之前，我的博客还是不支持数学公式的），由于还没有支持数学公式的需求，所以我也一直没有折腾过这个。不过之前有看到过相关的文章，于是在网上找找资料便自己试了试，下面……</summary>
             
                 <content type="html">&lt;p&gt;今天被一个博友咨询如何往博客中添加数学公式，（在这篇文章没写之前，我的博客还是不支持数学公式的），由于还没有支持数学公式的需求，所以我也一直没有折腾过这个。不过之前有看到过相关的文章，于是在网上找找资料便自己试了试，下面的内容是从网上摘录下来的部分笔记，完整的内容我已贴在了文章的最下面，欢迎访问原文。（本文只作自己的修改记录）&lt;/p&gt;
 &lt;h1 id=&#34;在footerhtml文件中添加代码&#34;&gt;在footer.html文件中添加代码&lt;/h1&gt;
@@ -2602,7 +2602,7 @@ $$&lt;/p&gt;
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">前几天参照网上的资源自己弄了个搜索框，主要是因为现在大部分的网页搜索首页老是会有一些杂乱的东西弹出来，关还关不掉。于是就自己想着整一个搜索界面。我的目……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">前几天参照网上的资源自己弄了个搜索框，主要是因为现在大部分的网页搜索首页老是会有一些杂乱的东西弹出来，关还关不掉。于是就自己想着整一个搜索界面。我的目的很简单，让界面看起来尽量简洁，因为是用来搜索资源的，所以一些无关紧要……</summary>
             
                 <content type="html">&lt;p&gt;前几天参照网上的资源自己弄了个搜索框，主要是因为现在大部分的网页搜索首页老是会有一些杂乱的东西弹出来，关还关不掉。于是就自己想着整一个搜索界面。我的目的很简单，让界面看起来尽量简洁，因为是用来搜索资源的，所以一些无关紧要的东西都可以不要。参考Google浏览器的样式，于是就有了下面的极简搜索页面：只显示一个搜索框，其他的东西统统扔掉。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://zccon.oss-cn-beijing.aliyuncs.com/Hugo/images/tech/2020/01/Google_search.png&#34; alt=&#34;&#34; title=&#34;Google搜索界面&#34;&gt;
@@ -2886,7 +2886,7 @@ $$&lt;/p&gt;
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Tweenlite，是webgame开发人员比较常用的一个缓动库。 可以去https://www.tweenmax.com.cn/start/下载Twe……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Tweenlite，是webgame开发人员比较常用的一个缓动库。 可以去https://www.tweenmax.com.cn/start/下载TweenMax.min.js文件并引入 TweenMax使用方法 载入Twee……</summary>
             
                 <content type="html">&lt;p&gt;&lt;a href=&#34;http://www.greensock.com/tweenlite/&#34;&gt;Tweenlite&lt;/a&gt;，是webgame开发人员比较常用的一个缓动库。&lt;/p&gt;
 &lt;p&gt;可以去&lt;a href=&#34;https://www.tweenmax.com.cn/start/&#34;&gt;https://www.tweenmax.com.cn/start/&lt;/a&gt;下载&lt;span class=&#34;filenamestyle&#34;&gt;TweenMax.min.js&lt;/span&gt;文件并引入&lt;/p&gt;
@@ -3298,7 +3298,7 @@ $$&lt;/p&gt;
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">开发环境 win10(64位) + Google Chorme + sublime text3 + xampp + Navicat 文件夹的设置 目的：显示文件的后缀 任意打开一个文件夹，点击 查看 ，勾选上 文件扩展名 。 安装编辑器 sublime text3 sublime text3 下载……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">开发环境 win10(64位) + Google Chorme + sublime text3 + xampp + Navicat 文件夹的设置 目的：显示文件的后缀 任意打开一个文件夹，点击 查看 ，勾选上 文件扩展名 。 安装编辑器 sublime text3 sublime text3 下载地址 安装过程就不用说了，直接下一步就好了。 安装 xampp XAMPP 官方下载地址 下载好之……</summary>
             
                 <content type="html">&lt;h2 id=&#34;开发环境&#34;&gt;开发环境&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;win10(64位)&lt;/code&gt; + &lt;code&gt;Google Chorme&lt;/code&gt; + &lt;code&gt;sublime text3&lt;/code&gt; + &lt;code&gt;xampp&lt;/code&gt; + &lt;code&gt;Navicat&lt;/code&gt;&lt;/p&gt;
@@ -3468,7 +3468,7 @@ $$&lt;/p&gt;
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Syntax guide Headers code: # This is an &amp;lt;h1&amp;gt; tag ## This is an &amp;lt;h2&amp;gt; tag ### This is an &amp;lt;h3&amp;gt; tag #### This is an &amp;lt;h4&amp;gt; tag ##### This is an &amp;lt;h5&amp;gt; tag ###### This is an &amp;lt;h6&amp;gt; tag Emphasis code: *This text will be italic* _This will also be italic_ **This text will be bold** __This will also be bold__ _You **can** combine them_ ~~This text will be strikethrough~~ demo: 斜体：……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Syntax guide Headers code: # This is an &amp;lt;h1&amp;gt; tag ## This is an &amp;lt;h2&amp;gt; tag ### This is an &amp;lt;h3&amp;gt; tag #### This is an &amp;lt;h4&amp;gt; tag ##### This is an &amp;lt;h5&amp;gt; tag ###### This is an &amp;lt;h6&amp;gt; tag Emphasis code: *This text will be italic* _This will also be italic_ **This text will be bold** __This will also be bold__ _You **can** combine them_ ~~This text will be strikethrough~~ demo: 斜体：This text will be italic 斜体：This will also be italic 粗体：This text will be bold 粗体：Th……</summary>
             
                 <content type="html">&lt;h2 id=&#34;syntax-guide&#34;&gt;Syntax guide&lt;/h2&gt;
 &lt;h3 id=&#34;headers&#34;&gt;Headers&lt;/h3&gt;
@@ -3772,7 +3772,7 @@ Enabled by default. You can disable it from the package settings.&lt;/p&gt;
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">start 今天用Hexo写博客的时候在本地加入了一个大视频文件（270M）做本地测试，结果不小心使用hexo d部署到了github上，中途出现问题。 一、问题描……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">start 今天用Hexo写博客的时候在本地加入了一个大视频文件（270M）做本地测试，结果不小心使用hexo d部署到了github上，中途出现问题。 一、问题描述： 上面标注的地方已经提示的很明显了，就是我上传的一个视频文件过大（大……</summary>
             
                 <content type="html">&lt;h2 id=&#34;start&#34;&gt;start&lt;/h2&gt;
 &lt;p&gt;今天用Hexo写博客的时候在本地加入了一个&lt;code&gt;大视频文件&lt;/code&gt;（270M）做本地测试，结果不小心使用&lt;code&gt;hexo d&lt;/code&gt;部署到了github上，中途出现问题。&lt;/p&gt;
@@ -3946,7 +3946,7 @@ push至github&lt;br/&gt;&lt;/p&gt;
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">本文是以Annie主题+Gitalk评论插件搭建的博客评论功能，其中涉及到Github仓库的创建和OAuth应用的申请。 新建github仓库 首先登陆个……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">本文是以Annie主题+Gitalk评论插件搭建的博客评论功能，其中涉及到Github仓库的创建和OAuth应用的申请。 新建github仓库 首先登陆个人的github,点击 New repository创建..新的仓库.. 注册O……</summary>
             
                 <content type="html">&lt;p&gt;本文是以&lt;code&gt;Annie主题&lt;/code&gt;+&lt;code&gt;Gitalk评论插件&lt;/code&gt;搭建的博客评论功能，其中涉及到&lt;code&gt;Github仓库&lt;/code&gt;的创建和&lt;code&gt;OAuth应用&lt;/code&gt;的申请。&lt;/p&gt;
 &lt;h1 id=&#34;新建github仓库&#34;&gt;新建github仓库&lt;/h1&gt;
@@ -4150,7 +4150,7 @@ push至github&lt;br/&gt;&lt;/p&gt;
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Smileys &amp;amp; People 😀😃😄😁😆😅😂🤣😊😇🙂🙃😉😌😍😘😗😙😚😋😛😝😜🤪🤨🧐🤓😎🤩😏😒😞😔😟😕🙁☹️😣😖😫😩😢😭😤😠😡🤬🤯😳😱😨😰😥😓🤗🤔🤭🤫🤥😶😐😑😬🙄😯😦😧😮😲😴🤤……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Smileys &amp;amp; People 😀😃😄😁😆😅😂🤣😊😇🙂🙃😉😌😍😘😗😙😚😋😛😝😜🤪🤨🧐🤓😎🤩😏😒😞😔😟😕🙁☹️😣😖😫😩😢😭😤😠😡🤬🤯😳😱😨😰😥😓🤗🤔🤭🤫🤥😶😐😑😬🙄😯😦😧😮😲😴🤤😪😵🤐🤢🤮🤧😷🤒🤕🤑🤠😈👿👹👺🤡💩👻💀☠️👽👾🤖🎃😺😸😹😻😼😽🙀😿😾🤲……</summary>
             
                 <content type="html">&lt;h2 id=&#34;smileys--people&#34;&gt;Smileys &amp;amp; People&lt;/h2&gt;
 &lt;p&gt;😀😃😄😁😆😅😂🤣😊😇🙂🙃😉😌😍😘😗😙😚😋😛😝😜🤪🤨🧐🤓😎🤩😏😒😞😔😟😕🙁☹️😣😖😫😩😢😭😤😠😡🤬🤯😳😱😨😰😥😓🤗🤔🤭🤫🤥😶😐😑😬🙄😯😦😧😮😲😴🤤😪😵🤐🤢🤮🤧😷🤒🤕🤑🤠😈👿👹👺🤡💩👻💀☠️👽👾🤖🎃😺😸😹😻😼😽🙀😿😾🤲👐🙌👏🤝👍👎👊✊🤛🤜🤞✌️🤟🤘👌👈👉👆👇☝️✋🤚🖐️🖖👋🤙💪🖕✍️🙏💄💋👄👅👂👃👣👁️👀🧠🗣️👤👥👶👧🧒👦👩🧑👨👱‍♀️👱👱‍♂️🧔👵🧓👴👲👳👳‍♀️👳‍♂️🧕👮👮‍♀️👮‍♂️👷👷‍♀️👷‍♂️💂‍♀️💂💂‍♂️🕵️🕵️‍♀️🕵️‍♂️👩‍⚕️👨‍⚕️👩‍🌾👨‍🌾👩‍🍳👨‍🍳👩‍🎓👨‍🎓👩‍🎤👨‍🎤👩‍🏫👨‍🏫👩‍🏭👨‍🏭👩‍💻👨‍💻👩‍💼👨‍💼👩‍🔧👨‍🔧👩‍🔬👨‍🔬👩‍🎨👨‍🎨👩‍🚒👨‍🚒👩‍✈️👨‍✈️👩‍🚀👨‍🚀👩‍⚖️👨‍⚖️👰🤵👸🤴🤶🎅🧙🧙‍♀️🧙‍♂️🧝🧝‍♀️🧝‍♂️🧛🧛‍♀️🧛‍♂️🧟🧟‍♀️🧟‍♂️🧞🧞‍♀️🧞‍♂️🧜🧜‍♀️🧜‍♂️🧚🧚‍♀️🧚‍♂️👼🤰🤱🙇🙇‍♀️🙇‍♂️💁💁‍♀️💁‍♂️🙅🙅‍♀️🙅‍♂️🙆🙆‍♀️🙆‍♂️🙋🙋‍♀️🙋‍♂️💃🕺👯👯‍♂️👯‍♀️🕴️🚶🚶‍♀️🚶‍♂️🏃🏃‍♀️🏃‍♂🧑‍🤝‍🧑👫👭👬💑👩‍❤️‍👨👩‍❤️‍👩👨‍❤️‍👨💏👩‍❤️‍💋👨👩‍❤️‍💋👩👨‍❤️‍💋👨👪👨‍👩‍👦👨‍👩‍👧👨‍👩‍👧‍👦👨‍👩‍👦‍👦👨‍👩‍👧‍👧👩‍👩‍👦👩‍👩‍👧👩‍👩‍👧‍👦👩‍👩‍👦‍👦👩‍👩‍👧‍👧👨‍👨‍👦👨‍👨‍👧👨‍👨‍👧‍👦👨‍👨‍👦‍👦👨‍👨‍👧‍👧👩‍👦👩‍👧👩‍👧‍👦👩‍👦‍👦👩‍👧‍👧👨‍👦👨‍👧👨‍👧‍👦👨‍👦‍👦👨‍👧‍👧🧥👚👕👖👔👗👙👘👠👡👢👞👟🧦🧤🧣🎩🧢👒🎓⛑️👑💍👝👛👜💼🎒👓🕶️🌂&lt;/p&gt;
@@ -4215,7 +4215,7 @@ push至github&lt;br/&gt;&lt;/p&gt;
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">要全局使用 emoji, 需要在你的网站配置中设置 enableEmoji 为 true, 然后你就可以直接在文章中输入 emoji 的代码1。 它们以冒号开头和结尾，并且包含 emoji 的 代码: 1 :代码: 以下符号清单是 emoji 代……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">要全局使用 emoji, 需要在你的网站配置中设置 enableEmoji 为 true, 然后你就可以直接在文章中输入 emoji 的代码1。 它们以冒号开头和结尾，并且包含 emoji 的 代码: 1 :代码: 以下符号清单是 emoji 代码的非常有用的参考. 表情与情感 笑脸表情 图标 代码 图标 代码 😀 grinning 😃 smiley 😄 smile 😁 grin……</summary>
             
                 <content type="html">&lt;p&gt;要全局使用 emoji, 需要在你的&lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;网站配置&lt;/a&gt;中设置 &lt;code&gt;enableEmoji&lt;/code&gt; 为 &lt;code&gt;true&lt;/code&gt;,
 然后你就可以直接在文章中输入 emoji 的代码&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;https://example.com/posts/emoji%E8%A1%A8%E6%83%85%E5%BA%93%E4%BA%8C/#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
@@ -9999,7 +9999,7 @@ push至github&lt;br/&gt;&lt;/p&gt;
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">开始之前的说明 文中所有的指令都是在..Hexo..文件夹下开启的命令行中执行的 代码对比 1 2 3 This is a diff block. + This is add! - This is subtract! Bash指令 1 bash指令 提示信……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">开始之前的说明 文中所有的指令都是在..Hexo..文件夹下开启的命令行中执行的 代码对比 1 2 3 This is a diff block. + This is add! - This is subtract! Bash指令 1 bash指令 提示信息 这是一个info提示 这是一个success提示 这是一个warning……</summary>
             
                 <content type="html">&lt;blockquote&gt;
 &lt;p&gt;开始之前的说明&lt;br/&gt;
@@ -11176,7 +11176,7 @@ totop:
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">◎ 歌曲：《胡广生》·任素汐 第一次看《无名之辈》是因为这首歌，但不知道什么原因，没看完... 第二次看《无名之辈》还是因为这首歌，这次一个人认真的看完了。……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">◎ 歌曲：《胡广生》·任素汐 第一次看《无名之辈》是因为这首歌，但不知道什么原因，没看完... 第二次看《无名之辈》还是因为这首歌，这次一个人认真的看完了。 不安利电影，所以这里只是随便写写自己的一点感受吧。 其实除了高翔那一帮同……</summary>
             
                 <content type="html">&lt;p&gt;&lt;img src=&#34;https://zccon.oss-cn-beijing.aliyuncs.com/Hugo/images/life/2019/%E6%97%A0%E5%90%8D%E4%B9%8B%E8%BE%88.jpg&#34; alt=&#34;&#34; title=&#34;《无名之辈》&#34;&gt;&lt;/p&gt;
 &lt;audio controls height=&#34;100&#34; width=&#34;100&#34; style=&#34;clear:both;display:block;margin:auto&#34;&gt;
@@ -11261,7 +11261,7 @@ totop:
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">天微青，夜微凉，女子素面白衣。城郊外的荒野林中，她比往日的脚步多了几分匆匆，即使怀中裹挟着一些不知是什么的东西。脚踏青砖，身穿竹林，天色暗淡无月光，她……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">天微青，夜微凉，女子素面白衣。城郊外的荒野林中，她比往日的脚步多了几分匆匆，即使怀中裹挟着一些不知是什么的东西。脚踏青砖，身穿竹林，天色暗淡无月光，她却矫健如飞，哪里会怕夜露青苔惹得一身泥。 竹林被江水阻隔。女子只好依旧在……</summary>
             
                 <content type="html">&lt;p&gt;&lt;img src=&#34;https://zccon.oss-cn-beijing.aliyuncs.com/Hugo/images/life/2019/%E8%8B%94%E4%B8%8A%E9%9B%AA%E6%97%A0%E7%97%95.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;天微青，夜微凉，女子素面白衣。城郊外的荒野林中，她比往日的脚步多了几分匆匆，即使怀中裹挟着一些不知是什么的东西。脚踏青砖，身穿竹林，天色暗淡无月光，她却矫健如飞，哪里会怕夜露青苔惹得一身泥。&lt;br/&gt;&lt;/p&gt;
@@ -11355,7 +11355,7 @@ totop:
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">互联网铁王座争夺战：谁能代替李彦宏、与马云马化腾齐名？ 原创 ： 燃财经（ID:rancaijing） 作者 ： 黎明 编辑 ： 魏佳 来源 ： 原文 日期 ： 2019-05-31 长期被唱衰的百度……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">互联网铁王座争夺战：谁能代替李彦宏、与马云马化腾齐名？ 原创 ： 燃财经（ID:rancaijing） 作者 ： 黎明 编辑 ： 魏佳 来源 ： 原文 日期 ： 2019-05-31 长期被唱衰的百度，终于到了正式告别BAT的关键时刻。 过去30天，受 ..业绩下滑.. 和 .……</summary>
             
                 <content type="html">&lt;p&gt;互联网铁王座争夺战：谁能代替李彦宏、与马云马化腾齐名？&lt;/p&gt;
 &lt;blockquote&gt;
@@ -11507,7 +11507,7 @@ totop:
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">当记忆中的湿润又一次沾染了西湖之畔的离歌，当朦胧的月色又一次浮动于频频过客疏离的神色，当纷杂褪去，是否会有人想起那夜那歌，那浅笑，那落寞。 她始终是笑着……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">当记忆中的湿润又一次沾染了西湖之畔的离歌，当朦胧的月色又一次浮动于频频过客疏离的神色，当纷杂褪去，是否会有人想起那夜那歌，那浅笑，那落寞。 她始终是笑着，带着水光，恬淡而落寞，像开放的百合。他因她目光闪烁，因她戏改友人的词……</summary>
             
                 <content type="html">&lt;p&gt;当记忆中的湿润又一次沾染了西湖之畔的离歌，当朦胧的月色又一次浮动于频频过客疏离的神色，当纷杂褪去，是否会有人想起那夜那歌，那浅笑，那落寞。&lt;/p&gt;
 &lt;p&gt;她始终是笑着，带着水光，恬淡而落寞，像开放的百合。他因她目光闪烁，因她戏改友人的词作，因她流露的若韵。&lt;/p&gt;
@@ -11565,7 +11565,7 @@ totop:
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">概念 HTTP ..HTTP.. （HyperText Transfer Protocol：超文本传输协议）是一种用于分布式、协作式和超媒体信息系统的应用层协议。 简单来说就是一种发布和接收 HTML 页面……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">概念 HTTP ..HTTP.. （HyperText Transfer Protocol：超文本传输协议）是一种用于分布式、协作式和超媒体信息系统的应用层协议。 简单来说就是一种发布和接收 HTML 页面的方法，被用于在 Web 浏览器和网站服务器之间传递信息。 HTTPS ..HTTPS.. （Hyperte……</summary>
             
                 <content type="html">&lt;p&gt;&lt;img src=&#34;https://zccon.oss-cn-beijing.aliyuncs.com/Hugo/images/tech/2019/04/HttpAndHttps.png&#34; alt=&#34;图片.png&#34; title=&#34;HTTP与HTTPS&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;概念&#34;&gt;概念&lt;/h2&gt;
@@ -11708,7 +11708,7 @@ totop:
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">这是一部关于 ..同性.. 的影片。 影片主要讲述的是同性恋少女 ..卡梅伦.. 的一段青春成长历程。 小镇少女卡梅伦从小被寄养在极端保守的阿姨的家中。在高中舞会……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">这是一部关于 ..同性.. 的影片。 影片主要讲述的是同性恋少女 ..卡梅伦.. 的一段青春成长历程。 小镇少女卡梅伦从小被寄养在极端保守的阿姨的家中。在高中舞会时，卡梅伦在汽车后座与女同学亲热被逮到，因而出柜。她的阿姨随后将其远送……</summary>
             
                 <content type="html">&lt;p&gt;&lt;img src=&#34;https://zccon.oss-cn-beijing.aliyuncs.com/Hugo/images/life/2019/%E3%80%8A%E9%94%99%E8%AF%AF%E6%95%99%E8%82%B2%E3%80%8B.png&#34; alt=&#34;&#34; title=&#34;《错误教育》&#34;&gt;&lt;/p&gt;
 &lt;p&gt;这是一部关于 ..同性.. 的影片。
@@ -11801,7 +11801,7 @@ totop:
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">一、删除xml文件中的静态引用 找到&amp;lt;NavigationView&amp;gt;控件，将控件里的..静态引用..删除 1 2 3 4 5 6 7 8 &amp;lt;android.support.design.widget.NavigationView app:theme=&amp;#34;@style/myNavigationDrawerStyle&amp;#34; android:id=&amp;#34;@+id/nav_view&amp;#34; android:layout_width=&amp;#34;280dp&amp;#34; android:layout_height=&amp;#34;match_parent&amp;#34; android:layout_gravity=&amp;#34;start&amp;#34; app:headerLayout=&amp;#34;@layout/nav_header&amp;#34; app:menu=&amp;#34;@menu/nav_menu&amp;#34;/&amp;gt; 1 2……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">一、删除xml文件中的静态引用 找到&amp;lt;NavigationView&amp;gt;控件，将控件里的..静态引用..删除 1 2 3 4 5 6 7 8 &amp;lt;android.support.design.widget.NavigationView app:theme=&amp;#34;@style/myNavigationDrawerStyle&amp;#34; android:id=&amp;#34;@+id/nav_view&amp;#34; android:layout_width=&amp;#34;280dp&amp;#34; android:layout_height=&amp;#34;match_parent&amp;#34; android:layout_gravity=&amp;#34;start&amp;#34; app:headerLayout=&amp;#34;@layout/nav_header&amp;#34; app:menu=&amp;#34;@menu/nav_menu&amp;#34;/&amp;gt; 1 2 - app:headerLayout=&amp;#34;@layout/nav_header&amp;#34; - app:menu=&amp;#34;@menu/nav_menu&amp;#34; 二、绑定控件 在MainActivity的onCreate()函……</summary>
             
                 <content type="html">&lt;h1 id=&#34;一删除xml文件中的静态引用&#34;&gt;一、删除xml文件中的静态引用&lt;/h1&gt;
 &lt;p&gt;找到&lt;code&gt;&amp;lt;NavigationView&amp;gt;&lt;/code&gt;控件，将控件里的..静态引用..删除&lt;/p&gt;
@@ -12371,7 +12371,7 @@ navView.inflateMenu(R.menu.nav_menu);
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">中午波波一个消息 我有点没回过神来 还在上班的他 言语中略显疲惫 他告诉我不想上班 打算考研 微信里没多说 我约他晚上出来散散心 他马上也答应了 叫上阿军 晚上六七点 在光……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">中午波波一个消息 我有点没回过神来 还在上班的他 言语中略显疲惫 他告诉我不想上班 打算考研 微信里没多说 我约他晚上出来散散心 他马上也答应了 叫上阿军 晚上六七点 在光谷碰面 一顿饭 两小时 三个人 彼此说说心里话 再多的疲倦在这一刻也会烟消云散吧</summary>
             
                 <content type="html">&lt;p&gt;&lt;img src=&#34;https://example.com/images/life/2018/10/30/hust.jpg&#34; alt=&#34;&#34; title=&#34;2018-10-29 17:54 华中大南一门&#34;&gt;
 中午波波一个消息&lt;br/&gt;
@@ -12438,7 +12438,7 @@ navView.inflateMenu(R.menu.nav_menu);
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">原文链接：https://blog.csdn.net/REIGE/article/details/69214773?utm_source=blogxg……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">原文链接：https://blog.csdn.net/REIGE/article/details/69214773?utm_source=blogxgwz2 github地址：https://github.com/REIG……</summary>
             
                 <content type="html">&lt;p&gt;原文链接：&lt;a href=&#34;https://blog.csdn.net/REIGE/article/details/69214773?utm_source=blogxgwz2&#34;&gt;https://blog.csdn.net/REIGE/article/details/69214773?utm_source=blogxgwz2&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;github地址：&lt;a href=&#34;https://github.com/REIGE/DialogDemo&#34;&gt;https://github.com/REIGE/DialogDemo&lt;/a&gt;&lt;/p&gt;
@@ -13064,7 +13064,7 @@ navView.inflateMenu(R.menu.nav_menu);
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">这两天一直被这个问题所困扰，弹出什么鬼错误： 一串看不懂的东西，刚开始以为是程序的版本号和测试机的版本号不匹配导致的问题，然后跑到app下的build.……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">这两天一直被这个问题所困扰，弹出什么鬼错误： 一串看不懂的东西，刚开始以为是程序的版本号和测试机的版本号不匹配导致的问题，然后跑到app下的build.gradle里面强行修改版本号 然后下面又出了问题...... 好吧，那我……</summary>
             
                 <content type="html">&lt;p&gt;这两天一直被这个问题所困扰，弹出什么鬼错误：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://example.com/images/tech/2018/10/13/duplicatejar.png&#34; alt=&#34;&#34; title=&#34;错误信息&#34;&gt;&lt;/p&gt;
@@ -13161,7 +13161,7 @@ navView.inflateMenu(R.menu.nav_menu);
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">作用 当手机屏幕空间有限而不能一次将内容显示完时，需要借助ListView允许用户通过手指上下滑动的方式将屏幕外的数据滚动到屏幕内，同时屏幕上原有的数据……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">作用 当手机屏幕空间有限而不能一次将内容显示完时，需要借助ListView允许用户通过手指上下滑动的方式将屏幕外的数据滚动到屏幕内，同时屏幕上原有的数据滚动出屏幕。例如查看QQ消息等。 用法 新建项目 新建一个ListView项……</summary>
             
                 <content type="html">&lt;h2 id=&#34;作用&#34;&gt;作用&lt;/h2&gt;
 &lt;p&gt;当手机屏幕空间有限而不能一次将内容显示完时，需要借助ListView允许用户通过手指上下滑动的方式将屏幕外的数据滚动到屏幕内，同时屏幕上原有的数据滚动出屏幕。例如查看QQ消息等。&lt;/p&gt;
@@ -14159,7 +14159,7 @@ example：
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">周一 周二 周三 周四 周五 周六 周日 1~2节 数据挖掘及应用 应用高等工程数学 应用高等工程数学 3~4节 数据挖掘及应用 第一外国语（英语一） 5~6节 多媒体通信技术 中国……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">周一 周二 周三 周四 周五 周六 周日 1~2节 数据挖掘及应用 应用高等工程数学 应用高等工程数学 3~4节 数据挖掘及应用 第一外国语（英语一） 5~6节 多媒体通信技术 中国特色社会主义理论研究与实践 7~8节 多媒体通信技术 第一外国语（英语一） 中……</summary>
             
                 <content type="html">&lt;table&gt;
 &lt;thead&gt;
@@ -14278,7 +14278,7 @@ example：
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">长亭外，古道边，芳草碧连天。 晚风拂柳笛声残，夕阳山外山。 天之涯，地之角，知交半零落。 一壶浊酒尽余欢，今宵别梦寒。 长亭外，古道边，芳草碧连天。 问君此去几……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">长亭外，古道边，芳草碧连天。 晚风拂柳笛声残，夕阳山外山。 天之涯，地之角，知交半零落。 一壶浊酒尽余欢，今宵别梦寒。 长亭外，古道边，芳草碧连天。 问君此去几时还，来时莫徘徊。 天之涯，地之角，知交半零落。 人生难得是欢聚，惟有别离……</summary>
             
                 <content type="html">&lt;p style=&#34;text-align:center&#34;&gt;
 &lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=100% height=86 src=&#34;https://example.com//music.163.com/outchain/player?type=2&amp;id=34248552&amp;auto=0&amp;height=66&#34;&gt;&lt;/iframe&gt;
@@ -14345,7 +14345,7 @@ example：
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">天气好 不冷不热 阿军到学校来找我玩 学校可没啥好玩的 无聊 不如去外面转转吧 我们来到了动物园 开学周 这里没啥人 可小家伙们也懒 不知躲在哪睡觉 动物是没看到多少 出来散……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">天气好 不冷不热 阿军到学校来找我玩 学校可没啥好玩的 无聊 不如去外面转转吧 我们来到了动物园 开学周 这里没啥人 可小家伙们也懒 不知躲在哪睡觉 动物是没看到多少 出来散散步却也是极舒服的 晃晃悠悠 漫无目的地走 在黄昏时 坐在躺椅上 清风吹来 便用手……</summary>
             
                 <content type="html">&lt;p&gt;&lt;img src=&#34;https://example.com/images/life/2018/09/12/background.jpg&#34; alt=&#34;&#34; title=&#34;武汉动物园&#34;&gt;
 天气好&lt;br/&gt;
@@ -14414,7 +14414,7 @@ example：
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">新建一篇文章 命令： $ hexo new &amp;quot;文章标题&amp;quot; 例如，执行命令：hexo new &amp;quot;Helloworld&amp;quot;,\source\_po……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">新建一篇文章 命令： $ hexo new &amp;quot;文章标题&amp;quot; 例如，执行命令：hexo new &amp;quot;Helloworld&amp;quot;,\source\_posts文件夹下会出现对应的文件Helloworld.md,打开即可编辑……</summary>
             
                 <content type="html">&lt;h2 id=&#34;新建一篇文章&#34;&gt;新建一篇文章&lt;/h2&gt;
 &lt;p&gt;命令：&lt;/p&gt;
@@ -14603,7 +14603,7 @@ example：
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">用撼动一座岩石的力量 生长 春雨和冰霜同样 只能带来一段故事 沉睡的是这个世界的爱意 如果不能睁开眼睛 就用每一只手触摸你 前世冰冷 来世温暖 只在此生纠缠不清 谁也无法……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">用撼动一座岩石的力量 生长 春雨和冰霜同样 只能带来一段故事 沉睡的是这个世界的爱意 如果不能睁开眼睛 就用每一只手触摸你 前世冰冷 来世温暖 只在此生纠缠不清 谁也无法把两种根连在一起 这是我们的命运 哪怕是死后 或者被山羊连根拔起 我的梦在云云……</summary>
             
                 <content type="html">&lt;p&gt;&lt;img src=&#34;https://example.com/images/life/2019/11/%E8%8D%89.jpg&#34; alt=&#34;草&#34; title=&#34;草&#34;&gt;&lt;/p&gt;
 &lt;blockquote class=&#34;quote-center&#34;&gt;
@@ -14678,7 +14678,7 @@ example：
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">搭建环境 在搭建个人博客之前，首先我们配置下所需的一些环境，下载并安装以下两个工具 node.js git 安装过程比较简单，直接下一步即可。 注意记住它们的安装路径。 安装好之……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">搭建环境 在搭建个人博客之前，首先我们配置下所需的一些环境，下载并安装以下两个工具 node.js git 安装过程比较简单，直接下一步即可。 注意记住它们的安装路径。 安装好之后，打开命令窗口（按住Win+R后输入CMD） 分别输入 node -v 、npm -v……</summary>
             
                 <content type="html">&lt;h2 id=&#34;搭建环境&#34;&gt;搭建环境&lt;/h2&gt;
 &lt;p&gt;在搭建个人博客之前，首先我们配置下所需的一些环境，下载并安装以下两个工具&lt;/p&gt;
@@ -14853,7 +14853,7 @@ example：
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">趁着今天的好天气🌤️ 哥几个又出来浪😎 沿江走着 草坪上绿荫之处 三五成群坐着人 男女老少 烧烤的（之前不是写着这里不让烧烤的吗，难道江边可以？） 聊天的 做游戏的 都……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">趁着今天的好天气🌤️ 哥几个又出来浪😎 沿江走着 草坪上绿荫之处 三五成群坐着人 男女老少 烧烤的（之前不是写着这里不让烧烤的吗，难道江边可以？） 聊天的 做游戏的 都忙着自己的事 享受这美好的时光 浅滩上 一群年轻人在这里嬉戏打闹 我们也过去 脱……</summary>
             
                 <content type="html">&lt;p&gt;趁着今天的好天气🌤️&lt;br/&gt;
 哥几个又出来浪😎&lt;br/&gt;
@@ -14932,7 +14932,7 @@ example：
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">昨天元旦 今天好友几个到这来聚聚 吃吃饭（这个小酒馆特别神奇） （我，阿军，烨总，炉炉，Tjx） 点的那个鸡肉挺好吃的 可惜没拍照片（哈哈哈） 还有一盘菜叫“蓝瘦……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">昨天元旦 今天好友几个到这来聚聚 吃吃饭（这个小酒馆特别神奇） （我，阿军，烨总，炉炉，Tjx） 点的那个鸡肉挺好吃的 可惜没拍照片（哈哈哈） 还有一盘菜叫“蓝瘦香菇” 啥啊（就是西兰花🥦炒香菇） 过了一个时间点（就是八点钟🕗） 菲穆餐厅……</summary>
             
                 <content type="html">&lt;p&gt;&lt;img src=&#34;https://zccon.oss-cn-beijing.aliyuncs.com/Hugo/images/life/2017/%E5%B0%8F%E9%85%92%E9%A6%86.jpg&#34; alt=&#34;&#34; title=&#34;酒馆小聚&#34;&gt;&lt;/p&gt;
 &lt;p&gt;昨天元旦&lt;br/&gt;
@@ -15015,7 +15015,7 @@ example：
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">很幸运拿了个二等奖学金3000(开心😆)，今天便独家赞助哥几个来了一次野外烧烤。上午一起去附近菜场买了些食材佐料啥的，然后买了一些烧烤用的工具，之后到……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">很幸运拿了个二等奖学金3000(开心😆)，今天便独家赞助哥几个来了一次野外烧烤。上午一起去附近菜场买了些食材佐料啥的，然后买了一些烧烤用的工具，之后到超市买了些水。午觉过后，开始出发。 刚开始准备到滨江公园去的，看到那边明……</summary>
             
                 <content type="html">&lt;p&gt;很幸运拿了个二等奖学金3000(开心😆)，今天便独家赞助哥几个来了一次野外烧烤。上午一起去附近菜场买了些食材佐料啥的，然后买了一些烧烤用的工具，之后到超市买了些水。午觉过后，开始出发。
 &lt;img src=&#34;https://zccon.oss-cn-beijing.aliyuncs.com/Hugo/images/life/2016/barbecue2.jpg&#34; alt=&#34;&#34; title=&#34;在路上：烨总、炉炉和阿军&#34;&gt;&lt;/p&gt;
@@ -15072,7 +15072,7 @@ example：
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">今天天气🌤️真好 下午的阳光好暖和 一个人到门口的油菜地里玩 (感受下春天的气息) 油菜花开了 很香很漂亮 冬天的痕迹慢慢消失了 小蜜蜂🐝都跑出来了 大家东跑西跑忙着……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">今天天气🌤️真好 下午的阳光好暖和 一个人到门口的油菜地里玩 (感受下春天的气息) 油菜花开了 很香很漂亮 冬天的痕迹慢慢消失了 小蜜蜂🐝都跑出来了 大家东跑西跑忙着采蜜 乐此不疲 我就偷偷的给你们拍个照把 hahaha😁</summary>
             
                 <content type="html">&lt;p&gt;&lt;img src=&#34;https://zccon.oss-cn-beijing.aliyuncs.com/Hugo/images/life/2016/bee.JPG&#34; alt=&#34;&#34; title=&#34;门前油菜地的蜜蜂&#34;&gt;&lt;/p&gt;
 &lt;p&gt;今天天气🌤️真好&lt;br/&gt;
