@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sat, 06 Mar 2021 18:02:51 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sat, 06 Mar 2021 18:23:45 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -216,58 +216,6 @@ git push -u origin master
                                 
                                 
                                     <category domain="https://example.com/tags/hugo/">Hugo</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>Emoji表情库</title>
-                <link>https://example.com/posts/emoji%E8%A1%A8%E6%83%85%E5%BA%93/</link>
-                <guid isPermaLink="true">https://example.com/posts/emoji%E8%A1%A8%E6%83%85%E5%BA%93/</guid>
-                <pubDate>Thu, 04 Mar 2021 13:54:53 &#43;0800</pubDate>
-                
-                    <author>zccon1996@163.com (海上生明月)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description></description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://example.com/categories/tech/">TECH</category>
-                                
-                            
-                                
-                                
-                                
-                                    <category domain="https://example.com/categories/hugo/">Hugo</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://example.com/tags/hugo/">Hugo</category>
-                                
-                            
-                                
-                                
-                                
-                                    <category domain="https://example.com/tags/emoji/">emoji</category>
                                 
                             
                         
@@ -4163,7 +4111,7 @@ push至github&lt;br/&gt;&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/emoji/">emoji</category>
+                                    <category domain="https://example.com/tags/emoji/">Emoji</category>
                                 
                             
                         
@@ -9944,7 +9892,13 @@ push至github&lt;br/&gt;&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/emoji/">emoji</category>
+                                    <category domain="https://example.com/tags/hugo/">Hugo</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://example.com/tags/emoji/">Emoji</category>
                                 
                             
                         
