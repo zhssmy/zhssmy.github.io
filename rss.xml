@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 08 Mar 2021 18:34:37 &#43;0800</lastBuildDate>
+        <lastBuildDate>Mon, 08 Mar 2021 18:46:05 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="http://zhssmy.website/rss.xml" />
         
@@ -111,6 +111,13 @@
 &lt;blockquote&gt;
 &lt;p&gt;Custom domain : zhssmy.website&lt;/p&gt;
 &lt;/blockquote&gt;
+
+
+
+&lt;div class=&#34;notice notice-warning&#34; &gt;
+    &lt;div class=&#34;notice-title&#34; &gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path d=&#34;M570 440c18 32-5 72-42 72H48c-37 0-60-40-42-72L246 24c19-32 65-32 84 0l240 416zm-282-86a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;p&gt;绑定域名后就可以看到pubic文件夹下多了一个&lt;code&gt;CNAME&lt;/code&gt;文件，里面仅有一行内容为
+&lt;code&gt;zhssmy.website&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;
+
 &lt;p&gt;完成以上步骤就可以通过自定义域名zhssmy.website访问博客啦！&lt;/p&gt;
 </description>
                 
@@ -147,6 +154,12 @@
                                 
                                 
                                     <category domain="http://zhssmy.website/tags/%E5%9F%9F%E5%90%8D/">域名</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="http://zhssmy.website/tags/godaddy/">GoDaddy</category>
                                 
                             
                         
