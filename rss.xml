@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Tue, 09 Mar 2021 11:30:00 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 09 Mar 2021 11:31:56 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="http://zhssmy.website/rss.xml" />
         
@@ -15010,122 +15010,6 @@ example：
                                 
                                 
                                     <category domain="http://zhssmy.website/tags/control/">Control</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>研一秋季学期课程表</title>
-                <link>http://zhssmy.website/posts/%E7%A0%94%E4%B8%80%E7%A7%8B%E5%AD%A3%E5%AD%A6%E6%9C%9F%E8%AF%BE%E7%A8%8B%E8%A1%A8/</link>
-                <guid isPermaLink="true">http://zhssmy.website/posts/%E7%A0%94%E4%B8%80%E7%A7%8B%E5%AD%A3%E5%AD%A6%E6%9C%9F%E8%AF%BE%E7%A8%8B%E8%A1%A8/</guid>
-                <pubDate>Sat, 15 Sep 2018 20:29:43 &#43;0800</pubDate>
-                
-                    <author>zccon1996@163.com (海上生明月)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;周一&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;周二&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;周三&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;周四&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;周五&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;周六&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;周日&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1~2节&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;数据挖掘及应用&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;应用高等工程数学&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;应用高等工程数学&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;3~4节&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;数据挖掘及应用&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;第一外国语（英语一）&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;5~6节&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;多媒体通信技术&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;中国特色社会主义理论研究与实践&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;7~8节&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;多媒体通信技术&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;第一外国语（英语一）&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;中国特色社会主义理论研究与实践&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;9~10节&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;嵌入式系统设计&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;现代数字信号处理&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;11~12节&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;嵌入式系统设计&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;现代数字信号处理&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="http://zhssmy.website/categories/life/">LIFE</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="http://zhssmy.website/tags/files/">Files</category>
                                 
                             
                         
