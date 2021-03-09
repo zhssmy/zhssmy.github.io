@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">海上生明月</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2021-03-09T16:21:26&#43;08:00</updated>
+    <updated>2021-03-09T16:24:53&#43;08:00</updated>
     <id>http://zhssmy.website/</id>
     <link rel="alternate" type="text/html" href="http://zhssmy.website/" />
     <link rel="self" type="application/atom&#43;xml" href="http://zhssmy.website/atom.xml" />
@@ -14366,59 +14366,6 @@ totop:
                             
                             
                                 <category scheme="http://zhssmy.website/tags/github/" term="Github" label="Github" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">毕业</title>
-            <link rel="alternate" type="text/html" href="http://zhssmy.website/posts/%E6%AF%95%E4%B8%9A/" />
-            <id>http://zhssmy.website/posts/%E6%AF%95%E4%B8%9A/</id>
-            <updated>2021-03-06T17:35:37&#43;08:00</updated>
-            <published>2018-06-08T09:55:00&#43;08:00</published>
-            <author>
-                    <name>海上生明月</name>
-                    <uri>https://ztygcs.github.io/</uri>
-                    <email>zccon1996@163.com</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">长江大学14级电信学院毕业</summary>
-            
-                <content type="html">&lt;video poster=&#34;https://zccon.oss-cn-beijing.aliyuncs.com/images/%E6%AF%95%E4%B8%9A.jpg&#34; controls&gt;
-&lt;source src=&#34;https://zccon.oss-cn-beijing.aliyuncs.com/Hugo/videos/%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E5%AD%A6%E9%99%A2.mp4&#34;  &gt;
-&lt;/video&gt;
-&lt;p style=&#34;text-align:center;font-size:14px&#34; &gt;◎ Yangtze University&lt;/p&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="http://zhssmy.website/categories/life/" term="LIFE" label="LIFE" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="http://zhssmy.website/categories/%E8%AE%B0%E5%BD%95/" term="记录" label="记录" />
-                            
-                        
-                    
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="http://zhssmy.website/tags/video/" term="Video" label="Video" />
                             
                         
                     
