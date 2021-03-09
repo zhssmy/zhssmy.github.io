@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Tue, 09 Mar 2021 23:31:37 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 09 Mar 2021 23:55:30 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="http://zhssmy.website/rss.xml" />
         
@@ -998,9 +998,9 @@ git push origin master
             </item>
         
             <item>
-                <title>给博客添加自定义域名</title>
-                <link>http://zhssmy.website/posts/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/</link>
-                <guid isPermaLink="true">http://zhssmy.website/posts/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/</guid>
+                <title>如何给博客添加自定义域名</title>
+                <link>http://zhssmy.website/posts/%E5%A6%82%E4%BD%95%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/</link>
+                <guid isPermaLink="true">http://zhssmy.website/posts/%E5%A6%82%E4%BD%95%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/</guid>
                 <pubDate>Mon, 08 Mar 2021 17:41:34 &#43;0800</pubDate>
                 
                     <author>zccon1996@163.com (海上生明月)</author>
