@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">海上生明月</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2021-03-09T15:42:10&#43;08:00</updated>
+    <updated>2021-03-09T16:04:26&#43;08:00</updated>
     <id>http://zhssmy.website/</id>
     <link rel="alternate" type="text/html" href="http://zhssmy.website/" />
     <link rel="self" type="application/atom&#43;xml" href="http://zhssmy.website/atom.xml" />
@@ -12119,17 +12119,17 @@ totop:
         </entry>
     
         <entry>
-            <title type="text">《无名之辈》是你也是我</title>
-            <link rel="alternate" type="text/html" href="http://zhssmy.website/posts/%E6%97%A0%E5%90%8D%E4%B9%8B%E8%BE%88/" />
-            <id>http://zhssmy.website/posts/%E6%97%A0%E5%90%8D%E4%B9%8B%E8%BE%88/</id>
-            <updated>2021-03-06T17:35:37&#43;08:00</updated>
+            <title type="text">无名之辈 是你也是我</title>
+            <link rel="alternate" type="text/html" href="http://zhssmy.website/posts/%E6%97%A0%E5%90%8D%E4%B9%8B%E8%BE%88-%E6%98%AF%E4%BD%A0%E4%B9%9F%E6%98%AF%E6%88%91/" />
+            <id>http://zhssmy.website/posts/%E6%97%A0%E5%90%8D%E4%B9%8B%E8%BE%88-%E6%98%AF%E4%BD%A0%E4%B9%9F%E6%98%AF%E6%88%91/</id>
+            <updated>2021-03-09T16:03:57&#43;08:00</updated>
             <published>2019-11-01T21:40:01&#43;08:00</published>
             <author>
                     <name>海上生明月</name>
                     <uri>https://ztygcs.github.io/</uri>
                     <email>zccon1996@163.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">◎ 歌曲：《胡广生》·任素汐 第一次看《无名之辈》是因为这首歌，但不知道什么原因，没看完... 第二次看《无名之辈》还是因为这首歌，这次一个人认真的看完了。 不安利电影，所以这里只是随便写写自己的一点感受吧。 其实除了高翔那一帮同……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">◎ 歌曲：《胡广生》·任素汐 第一次看《无名之辈》是因为这首歌，但不知道什么原因，没看完 😝;第二次看《无名之辈》还是因为这首歌，这次一个人认真的看完了。 不安利电影，所以这里只是随便写写自己的一点感受吧😉。 其实除了高翔那一帮同……</summary>
             
                 <content type="html">&lt;p&gt;&lt;img src=&#34;https://zccon.oss-cn-beijing.aliyuncs.com/Hugo/images/life/2019/%E6%97%A0%E5%90%8D%E4%B9%8B%E8%BE%88.jpg&#34; alt=&#34;&#34; title=&#34;《无名之辈》&#34;&gt;&lt;/p&gt;
 &lt;audio controls height=&#34;100&#34; width=&#34;100&#34; style=&#34;clear:both;display:block;margin:auto&#34;&gt;
@@ -12138,9 +12138,9 @@ totop:
 &lt;/audio&gt;
 &lt;/br&gt;
 &lt;p style=&#34;text-align:center;font-size:14px&#34; &gt;◎ 歌曲：《胡广生》·任素汐&lt;/p&gt;
-&lt;p&gt;第一次看《无名之辈》是因为这首歌，但不知道什么原因，没看完...
-第二次看《无名之辈》还是因为这首歌，这次一个人认真的看完了。
-不安利电影，所以这里只是随便写写自己的一点感受吧。&lt;/p&gt;
+&lt;p&gt;第一次看《无名之辈》是因为这首歌，但不知道什么原因，没看完
+😝;第二次看《无名之辈》还是因为这首歌，这次一个人认真的看完了。&lt;/p&gt;
+&lt;p&gt;不安利电影，所以这里只是随便写写自己的一点感受吧😉。&lt;/p&gt;
 &lt;p&gt;其实除了高翔那一帮同学突然的入场情节让我觉得稍微有点牵强之外，总体来说，电影的质量还是很高的，更多的是电影结束之后带来的思考。&lt;/p&gt;
 &lt;p&gt;一个因为酒驾没了老婆丢了工作的落魄保安马先勇；
 一个因车祸高位截瘫而失去生存欲的毒舌妇马嘉祺；
@@ -12148,10 +12148,11 @@ totop:
 一个想要抢劫拿钱向自己心爱女人告白的痴情汉李海根；
 一个来自小乡村却在梦巴黎做按摩师的普通女人肇红霞；
 一个为了讨债而大张旗鼓为活人办葬礼的地盘老大刘五；
-还有一个因为欠债带着小三跑路最后迷途知返的开发商老板高明。
-他们其实都是这个社会的普通一角，但为了各自的生活，也是各自的尊严而活着，他们没有特别明显的主角配角之分，每个人的人格都刻画的还算饱满，很真实，也因为没有主角光环，每个人的结局也很平凡。绚丽的烟花下，胡广生的尊严再一次受到侮辱，等待他的是监狱的生活；千方百计立功想重回协警岗位的保安却还是保安；鼓起勇气的李海根在监狱向霞妺求婚成功，肇红霞也洗心革面过起了普通的生活；而马嘉祺则守着胡广生留下的那份希望继续生活下去。&lt;/p&gt;
-&lt;p&gt;最终一切还是归于平静，该丢的尊严还是丢了，因为要继续生活，因为这就是生活。&lt;/p&gt;
-&lt;p&gt;最后附上网易云的热评：&lt;/p&gt;
+还有一个因为欠债带着小三跑路最后迷途知返的开发商老板高明。&lt;/p&gt;
+&lt;p&gt;他们其实都是这个社会的普通一角，但为了各自的生活，也是各自的尊严而活着。他们没有明显的主角配角之分，每个人的人格都刻画的还算饱满，很真实；也因为没有主角光环，每个人的结局也很平凡。&lt;/p&gt;
+&lt;p&gt;绚丽的烟花下，胡广生的尊严再一次受到侮辱，等待他的是监狱的生活；千方百计立功想重回协警岗位的保安却还是保安；鼓起勇气的李海根在监狱向霞妺求婚成功，肇红霞也洗心革面过起了普通的生活；而马嘉祺则守着胡广生留下的那份希望继续生活下去。&lt;/p&gt;
+&lt;p&gt;最终一切还是归于平静。&lt;/p&gt;
+&lt;p&gt;最后附上网易云的热评(读起来很有感觉😁)：&lt;/p&gt;
 &lt;div class=&#34;mytag&#34; style=&#34;background:rgba(157,39,34,0.6)&#34;&gt;
 &lt;p style=&#34;text-align: center&#34;&gt;&lt;b&gt;
 活人办了葬礼，死人还剩一口气。&lt;br/&gt;痴憨是勇，咒骂是爱。&lt;br/&gt;烟花下是破碎的尊严。&lt;br/&gt;你我啊，皆是无名之辈，&lt;br/&gt;是没剥的鸡蛋，心里柔软；&lt;br/&gt;是胸前的铁板，软肋在背；&lt;br/&gt;是一把水枪，虚张声势，幼稚淳良。&lt;/b&gt;
@@ -12189,7 +12190,7 @@ totop:
                             
                             
                             
-                                <category scheme="http://zhssmy.website/tags/movie/" term="Movie" label="Movie" />
+                                <category scheme="http://zhssmy.website/tags/movie/" term="movie" label="movie" />
                             
                         
                             
@@ -12729,7 +12730,7 @@ totop:
                             
                             
                             
-                                <category scheme="http://zhssmy.website/tags/movie/" term="Movie" label="Movie" />
+                                <category scheme="http://zhssmy.website/tags/movie/" term="movie" label="movie" />
                             
                         
                             
