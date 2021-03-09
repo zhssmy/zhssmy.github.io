@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Tue, 09 Mar 2021 15:40:12 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 09 Mar 2021 15:41:41 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="http://zhssmy.website/rss.xml" />
         
@@ -13773,100 +13773,6 @@ totop:
                                 
                                 
                                     <category domain="http://zhssmy.website/tags/dialog/">Dialog</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>记一次工程jar包重复问题</title>
-                <link>http://zhssmy.website/posts/%E5%AF%BC%E5%85%A5%E5%B7%A5%E7%A8%8Bjar%E5%8C%85%E9%87%8D%E5%A4%8D%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</link>
-                <guid isPermaLink="true">http://zhssmy.website/posts/%E5%AF%BC%E5%85%A5%E5%B7%A5%E7%A8%8Bjar%E5%8C%85%E9%87%8D%E5%A4%8D%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</guid>
-                <pubDate>Sat, 13 Oct 2018 20:36:44 &#43;0800</pubDate>
-                
-                    <author>zccon1996@163.com (海上生明月)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;这两天一直被这个问题所困扰，弹出什么鬼错误：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://zhssmy.website/images/tech/2018/10/13/duplicatejar.png&#34; alt=&#34;&#34; title=&#34;错误信息&#34;&gt;&lt;/p&gt;
-&lt;p&gt;一串看不懂的东西，刚开始以为是程序的版本号和测试机的版本号不匹配导致的问题，然后跑到&lt;strong&gt;app&lt;/strong&gt;下的&lt;strong&gt;build.gradle&lt;/strong&gt;里面强行修改版本号&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://zhssmy.website/images/tech/2018/10/13/versionchange.png&#34; alt=&#34;&#34; title=&#34;修改版本号&#34;&gt;&lt;/p&gt;
-&lt;p&gt;然后下面又出了问题......&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://zhssmy.website/images/tech/2018/10/13/versionchange2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;好吧，那我把你也给改一改。重新运行一下，&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://zhssmy.website/images/tech/2018/10/13/wrong2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;我的天，又来一个看不懂的东西&lt;/p&gt;
-&lt;p&gt;这又是什么玩意儿，算了，还原吧，继续研究第一个问题
-就当啥都没发生，重新开始。
-直接找度娘吧，错误复制粘贴直接搜&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://zhssmy.website/images/tech/2018/10/13/baidu.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;总有人有和我一样的问题吧，一个个的找，&lt;/p&gt;
-&lt;h3 id=&#34;solution-one&#34;&gt;Solution one:&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;http://zhssmy.website/images/tech/2018/10/13/one.png&#34; alt=&#34;&#34;&gt;&lt;img src=&#34;http://zhssmy.website/images/tech/2018/10/13/two.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;这个没啥用啊，&lt;strong&gt;multiDexEnabled true&lt;/strong&gt;已经加了，换一个吧（没解决）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;solution-two&#34;&gt;Solution two:&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;http://zhssmy.website/images/tech/2018/10/13/three.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;答案比较简洁，不太确定哪个&lt;strong&gt;jar&lt;/strong&gt;重复，那就照着葫芦画个瓢吧，哈哈。结果还是不行（没解决）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;solution-three&#34;&gt;Solution three:&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;http://zhssmy.website/images/tech/2018/10/13/four.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;都是英文，直接放弃吧 (没解决)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;突然有点累了。。。。
-有时候解决问题还是要从根源找起，既然有错误提示，那就把错误提示翻译过来，看他说了啥。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://zhssmy.website/images/tech/2018/10/13/youdao.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;虽然还是不太懂，但是我好想看到了重点，&lt;mark&gt;&lt;strong&gt;重复条目&lt;/strong&gt;&lt;/mark&gt; &lt;mark&gt;&lt;strong&gt;重复条目&lt;/strong&gt;&lt;/mark&gt; &lt;mark&gt;&lt;strong&gt;重复条目&lt;/strong&gt;&lt;/mark&gt;，重要的东西还是要说三遍，强调一下。话说这个好像在哪里见过，&lt;strong&gt;Number one&lt;/strong&gt;和&lt;strong&gt;Number two&lt;/strong&gt;里面好像都有，对，没错，前面都提到过。好了，大概知道了，有个东西（包）重复引用了，应该要删掉一个，看到网上说什么引入的&lt;strong&gt;Libary&lt;/strong&gt;与现有的工程中的某些&lt;strong&gt;Libs&lt;/strong&gt;重复了，那就找吧，这个好像有点像，在错误提示里后面那一串和它挺像的，那就把它删了吧，同时把&lt;strong&gt;build.gradle&lt;/strong&gt;里的引用注释掉&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://zhssmy.website/images/tech/2018/10/13/1012.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;再运行试一试吧，好期待，应该成功了吧？？？
-哎呦喂，啥情况，程序跑都跑不动了。。。关机关机，不玩了&lt;/p&gt;
-&lt;p&gt;（第二天）
-还是要解决啊，有点烦，再来一遍。**???**出来了!!!，这个惊喜来得有点莫名其妙，明明啥也没干，昨天错误百出，今天咋就跑出来了，总算是有一丢丢的进展了，累啊！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://zhssmy.website/images/tech/2018/10/13/f410.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;这个图有点大&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://zhssmy.website/images/tech/2018/10/13/f410wrong.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;停止运行。。。。。。崩了，算了，下次再解决吧。&lt;/p&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="http://zhssmy.website/categories/tech/">TECH</category>
-                                
-                            
-                                
-                                
-                                
-                                    <category domain="http://zhssmy.website/categories/%E5%AE%89%E5%8D%93/">安卓</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="http://zhssmy.website/tags/android/">Android</category>
-                                
-                            
-                                
-                                
-                                
-                                    <category domain="http://zhssmy.website/tags/trouble/">Trouble</category>
                                 
                             
                         
