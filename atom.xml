@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">海上生明月</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2021-03-10T17:40:44&#43;08:00</updated>
+    <updated>2021-03-10T18:12:20&#43;08:00</updated>
     <id>http://zhssmy.website/</id>
     <link rel="alternate" type="text/html" href="http://zhssmy.website/" />
     <link rel="self" type="application/atom&#43;xml" href="http://zhssmy.website/atom.xml" />
@@ -2328,7 +2328,7 @@ git push -u origin master
             <title type="text">安卓开发之IP定位的实现</title>
             <link rel="alternate" type="text/html" href="http://zhssmy.website/posts/%E5%AE%89%E5%8D%93%E5%BC%80%E5%8F%91%E4%B9%8Bip%E5%AE%9A%E4%BD%8D%E7%9A%84%E5%AE%9E%E7%8E%B0/" />
             <id>http://zhssmy.website/posts/%E5%AE%89%E5%8D%93%E5%BC%80%E5%8F%91%E4%B9%8Bip%E5%AE%9A%E4%BD%8D%E7%9A%84%E5%AE%9E%E7%8E%B0/</id>
-            <updated>2021-03-10T17:38:43&#43;08:00</updated>
+            <updated>2021-03-10T17:43:54&#43;08:00</updated>
             <published>2020-06-19T13:46:31&#43;08:00</published>
             <author>
                     <name>海上生明月</name>
@@ -3008,15 +3008,15 @@ git push -u origin master
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">这篇文章主要是为了把大部分常用的LaTex数学符号和公式整理到一起，方便自己和大家以后查阅使用，虽然网上的相关文章很多，但我还是花了点时间自己整理了一下，基本上都是网友们整理过的相关内容。从公式的使用到公式的各种常用运算……</summary>
             
                 <content type="html">&lt;p&gt;这篇文章主要是为了把大部分常用的LaTex数学符号和公式整理到一起，方便自己和大家以后查阅使用，虽然网上的相关文章很多，但我还是花了点时间自己整理了一下，基本上都是网友们整理过的相关内容。从公式的使用到公式的各种常用运算符再到一些数学常用符号和特定的数学公式形式以及其他相关符号的整理。内容肯定是不完善的，后续如果有需要更改或添加的地方，我会进行修改的。&lt;/p&gt;
-&lt;h2 id=&#34;插入公式&#34;&gt;插入公式&lt;/h2&gt;
-&lt;h3 id=&#34;行中公式&#34;&gt;行中公式&lt;/h3&gt;
+&lt;h2 id=&#34;一插入公式&#34;&gt;一、插入公式&lt;/h2&gt;
+&lt;h3 id=&#34;11-行中公式&#34;&gt;1.1 行中公式&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;$y=x+1$
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;$y=x+1$&lt;/p&gt;
-&lt;h3 id=&#34;独立公式&#34;&gt;独立公式&lt;/h3&gt;
+&lt;h3 id=&#34;12-独立公式&#34;&gt;1.2 独立公式&lt;/h3&gt;
 &lt;p&gt;公式会另起一行居中显示&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;$$y=x+1$$
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;$$y=x+1$$&lt;/p&gt;
-&lt;h2 id=&#34;上下标&#34;&gt;上下标&lt;/h2&gt;
+&lt;h2 id=&#34;二上下标&#34;&gt;二、上下标&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3043,7 +3043,7 @@ git push -u origin master
 &lt;p&gt;例：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;$$ \sideset{^1_2}{^3_4}x $$
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;$$ \sideset{^1_2}{^3_4}x $$&lt;/p&gt;
-&lt;h2 id=&#34;括号的使用&#34;&gt;括号的使用&lt;/h2&gt;
+&lt;h2 id=&#34;三括号的使用&#34;&gt;三、括号的使用&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3093,7 +3093,7 @@ git push -u origin master
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;$$ {f}&#39;(x) = \left( \frac{df}{dx} \right) $$&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;$$ {f}&#39;(0) =  \left. \frac{df}{dx} \right|_{x=0} $$
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;$$ {f}&#39;(0) =  \left. \frac{df}{dx} \right|_{x=0} $$&lt;/p&gt;
-&lt;h2 id=&#34;运算表达式&#34;&gt;运算表达式&lt;/h2&gt;
+&lt;h2 id=&#34;四运算表达式&#34;&gt;四、运算表达式&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3170,9 +3170,9 @@ git push -u origin master
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;矩阵&#34;&gt;矩阵&lt;/h2&gt;
-&lt;h3 id=&#34;圆括号型&#34;&gt;圆括号型&lt;/h3&gt;
-&lt;h4 id=&#34;方法1&#34;&gt;方法1&lt;/h4&gt;
+&lt;h2 id=&#34;五矩阵&#34;&gt;五、矩阵&lt;/h2&gt;
+&lt;h3 id=&#34;51-圆括号型&#34;&gt;5.1 圆括号型&lt;/h3&gt;
+&lt;h4 id=&#34;511-方法1&#34;&gt;5.1.1 方法1&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;$$
 \begin{pmatrix}
 1 &amp;amp; 2 &amp;amp; 3\\\\
@@ -3185,7 +3185,7 @@ $$
 4 &amp;amp; 5 &amp;amp; 6
 \end{pmatrix}
 $$&lt;/p&gt;
-&lt;h4 id=&#34;方法2&#34;&gt;方法2&lt;/h4&gt;
+&lt;h4 id=&#34;512-方法2&#34;&gt;5.1.2 方法2&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;$$
 \left(
 \begin{matrix}
@@ -3204,8 +3204,8 @@ $$
 \end{matrix}
 \right)
 $$&lt;/p&gt;
-&lt;h3 id=&#34;方括号型&#34;&gt;方括号型&lt;/h3&gt;
-&lt;h4 id=&#34;方法1-1&#34;&gt;方法1&lt;/h4&gt;
+&lt;h3 id=&#34;52-方括号型&#34;&gt;5.2 方括号型&lt;/h3&gt;
+&lt;h4 id=&#34;521-方法1&#34;&gt;5.2.1 方法1&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;$$
 \begin{bmatrix}
 	1 &amp;amp; 2 &amp;amp; 3\\\\
@@ -3218,7 +3218,7 @@ $$
 4 &amp;amp; 5 &amp;amp; 6
 \end{bmatrix}
 $$&lt;/p&gt;
-&lt;h4 id=&#34;方法2-1&#34;&gt;方法2&lt;/h4&gt;
+&lt;h4 id=&#34;522-方法2&#34;&gt;5.2.2 方法2&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;$$
 \left[
 	\begin{matrix}
@@ -3235,8 +3235,8 @@ $$
 \end{matrix}
 \right]
 $$&lt;/p&gt;
-&lt;h3 id=&#34;花括号型&#34;&gt;花括号型&lt;/h3&gt;
-&lt;h4 id=&#34;方法1-2&#34;&gt;方法1&lt;/h4&gt;
+&lt;h3 id=&#34;53-花括号型&#34;&gt;5.3 花括号型&lt;/h3&gt;
+&lt;h4 id=&#34;531-方法1&#34;&gt;5.3.1 方法1&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;$$
 \begin{Bmatrix}
 1 &amp;amp; 2 &amp;amp; 3\\\\
@@ -3249,7 +3249,7 @@ $$
 4 &amp;amp; 5 &amp;amp; 6
 \end{Bmatrix}
 $$&lt;/p&gt;
-&lt;h4 id=&#34;方法2-2&#34;&gt;方法2&lt;/h4&gt;
+&lt;h4 id=&#34;532-方法2&#34;&gt;5.3.2 方法2&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;$$
 \left\\{
 	\begin{matrix}
@@ -3266,8 +3266,8 @@ $$
 \end{matrix}
 \right\}
 $$&lt;/p&gt;
-&lt;h2 id=&#34;行列式&#34;&gt;行列式&lt;/h2&gt;
-&lt;h3 id=&#34;方法1-3&#34;&gt;方法1&lt;/h3&gt;
+&lt;h2 id=&#34;六行列式&#34;&gt;六、行列式&lt;/h2&gt;
+&lt;h3 id=&#34;61-方法1&#34;&gt;6.1 方法1&lt;/h3&gt;
 &lt;pre&gt;&lt;code class=&#34;language-X=&#34; data-lang=&#34;X=&#34;&gt;\begin{vmatrix}
 	x &amp;amp; x &amp;amp; \cdots &amp;amp; x\\\\
 	x &amp;amp; x &amp;amp; \cdots &amp;amp; x\\\\
@@ -3282,7 +3282,7 @@ x &amp;amp; x &amp;amp; \cdots &amp;amp; x\\&lt;br&gt;
 x &amp;amp; x &amp;amp; \cdots &amp;amp; x\\&lt;br&gt;
 \end{vmatrix}
 $$&lt;/p&gt;
-&lt;h3 id=&#34;方法2-3&#34;&gt;方法2&lt;/h3&gt;
+&lt;h3 id=&#34;62-方法2&#34;&gt;6.2 方法2&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;$$X=
 \left|
 \begin{matrix}
@@ -3303,7 +3303,7 @@ x &amp;amp; x &amp;amp; \cdots &amp;amp; x\\&lt;br&gt;
 \end{matrix}
 \right|
 $$&lt;/p&gt;
-&lt;h2 id=&#34;分段函数&#34;&gt;分段函数&lt;/h2&gt;
+&lt;h2 id=&#34;七分段函数&#34;&gt;七、分段函数&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;$$f(n) =
 \begin{cases}
 	2n,  &amp;amp; \text{if $n$ is even} \\\\
@@ -3316,7 +3316,7 @@ $$
 3n, &amp;amp; \text{if $n$ is odd}
 \end{cases}
 $$&lt;/p&gt;
-&lt;h2 id=&#34;方程组&#34;&gt;方程组&lt;/h2&gt;
+&lt;h2 id=&#34;八方程组&#34;&gt;八、方程组&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;$$
 \left\\{ 
 \begin{array}{c}
@@ -3335,9 +3335,9 @@ a_3x+b_3y+c_3z=d_3
 \end{array}
 \right.
 $$&lt;/p&gt;
-&lt;h2 id=&#34;数学常用符号&#34;&gt;数学常用符号&lt;/h2&gt;
-&lt;h3 id=&#34;希腊字母&#34;&gt;希腊字母&lt;/h3&gt;
-&lt;h4 id=&#34;小写希腊字母&#34;&gt;小写希腊字母&lt;/h4&gt;
+&lt;h2 id=&#34;九数学常用符号&#34;&gt;九、数学常用符号&lt;/h2&gt;
+&lt;h3 id=&#34;91-希腊字母&#34;&gt;9.1 希腊字母&lt;/h3&gt;
+&lt;h4 id=&#34;911-小写希腊字母&#34;&gt;9.1.1 小写希腊字母&lt;/h4&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3432,7 +3432,7 @@ $$&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4 id=&#34;大写希腊字母&#34;&gt;大写希腊字母&lt;/h4&gt;
+&lt;h4 id=&#34;912-大写希腊字母&#34;&gt;9.1.2 大写希腊字母&lt;/h4&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3479,8 +3479,8 @@ $$&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id=&#34;运算符&#34;&gt;运算符&lt;/h3&gt;
-&lt;h4 id=&#34;二元运算符&#34;&gt;二元运算符&lt;/h4&gt;
+&lt;h3 id=&#34;92-运算符&#34;&gt;9.2 运算符&lt;/h3&gt;
+&lt;h4 id=&#34;921-二元运算符&#34;&gt;9.2.1 二元运算符&lt;/h4&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3607,7 +3607,7 @@ $$&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4 id=&#34;大尺寸运算符&#34;&gt;大尺寸运算符&lt;/h4&gt;
+&lt;h4 id=&#34;922-大尺寸运算符&#34;&gt;9.2.2 大尺寸运算符&lt;/h4&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3656,7 +3656,7 @@ $$&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4 id=&#34;对数运算符&#34;&gt;对数运算符&lt;/h4&gt;
+&lt;h4 id=&#34;923-对数运算符&#34;&gt;9.2.3 对数运算符&lt;/h4&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3679,7 +3679,7 @@ $$&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4 id=&#34;三角运算符&#34;&gt;三角运算符&lt;/h4&gt;
+&lt;h4 id=&#34;924-三角运算符&#34;&gt;9.2.4 三角运算符&lt;/h4&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3718,7 +3718,7 @@ $$&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4 id=&#34;微积分运算符&#34;&gt;微积分运算符&lt;/h4&gt;
+&lt;h4 id=&#34;925-微积分运算符&#34;&gt;9.2.5 微积分运算符&lt;/h4&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3757,7 +3757,7 @@ $$&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4 id=&#34;逻辑运算符&#34;&gt;逻辑运算符&lt;/h4&gt;
+&lt;h4 id=&#34;926-逻辑运算符&#34;&gt;9.2.6 逻辑运算符&lt;/h4&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3788,8 +3788,8 @@ $$&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id=&#34;关系符&#34;&gt;关系符&lt;/h3&gt;
-&lt;h4 id=&#34;二元关系符&#34;&gt;二元关系符&lt;/h4&gt;
+&lt;h3 id=&#34;93-关系符&#34;&gt;9.3 关系符&lt;/h3&gt;
+&lt;h4 id=&#34;931-二元关系符&#34;&gt;9.3.1 二元关系符&lt;/h4&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3924,7 +3924,7 @@ $$&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id=&#34;戴帽符号&#34;&gt;戴帽符号&lt;/h3&gt;
+&lt;h3 id=&#34;94-戴帽符号&#34;&gt;9.4 戴帽符号&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3961,7 +3961,7 @@ $$&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id=&#34;连线符号&#34;&gt;连线符号&lt;/h3&gt;
+&lt;h3 id=&#34;95-连线符号&#34;&gt;9.5 连线符号&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -4049,7 +4049,7 @@ $$&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id=&#34;箭头&#34;&gt;箭头&lt;/h3&gt;
+&lt;h3 id=&#34;96-箭头&#34;&gt;9.6 箭头&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -4192,7 +4192,7 @@ $$&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id=&#34;定界符&#34;&gt;定界符&lt;/h3&gt;
+&lt;h3 id=&#34;97-定界符&#34;&gt;9.7 定界符&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -4247,7 +4247,7 @@ $$&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id=&#34;其他符号&#34;&gt;其他符号&lt;/h3&gt;
+&lt;h3 id=&#34;98-其他符号&#34;&gt;9.8 其他符号&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
