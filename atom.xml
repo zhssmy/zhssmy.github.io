@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">海上生明月</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2021-03-10T22:22:08&#43;08:00</updated>
+    <updated>2021-03-11T17:47:31&#43;08:00</updated>
     <id>http://zhssmy.website/</id>
     <link rel="alternate" type="text/html" href="http://zhssmy.website/" />
     <link rel="self" type="application/atom&#43;xml" href="http://zhssmy.website/atom.xml" />
@@ -16,6 +16,73 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.81.0">Hugo</generator>
+        <entry>
+            <title type="text">从前慢</title>
+            <link rel="alternate" type="text/html" href="http://zhssmy.website/posts/%E4%BB%8E%E5%89%8D%E6%85%A2/" />
+            <id>http://zhssmy.website/posts/%E4%BB%8E%E5%89%8D%E6%85%A2/</id>
+            <updated>2021-03-11T17:46:02&#43;08:00</updated>
+            <published>2021-03-11T12:39:36&#43;08:00</published>
+            <author>
+                    <name>海上生明月</name>
+                    <uri>https://ztygcs.github.io/</uri>
+                    <email>zccon1996@163.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">作者：木心 记得早先少年时 大家诚诚恳恳 说一句是一句 清早上火车站 长街黑暗无行人 卖豆浆的小店 冒着热气 从前的日色变得慢 车 马 邮件都慢 一生只够爱一个人 从前的锁也好看 钥匙精美有样子 你锁了人家就懂了</summary>
+            
+                <content type="html">&lt;p&gt;作者：木心&lt;/p&gt;
+
+
+&lt;blockquote class=&#34;quote&#34;&gt;&lt;p&gt;记得早先少年时&lt;br&gt;
+大家诚诚恳恳&lt;br&gt;
+说一句是一句&lt;br&gt;
+清早上火车站&lt;br&gt;
+长街黑暗无行人&lt;br&gt;
+卖豆浆的小店&lt;br&gt;
+冒着热气&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;从前的日色变得慢&lt;br&gt;
+车 马 邮件都慢&lt;br&gt;
+一生只够爱一个人&lt;br&gt;
+从前的锁也好看&lt;br&gt;
+钥匙精美有样子&lt;br&gt;
+你锁了人家就懂了&lt;/p&gt;
+&lt;/blockquote&gt; 
+
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://zhssmy.website/categories/life/" term="LIFE" label="LIFE" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="http://zhssmy.website/categories/%E6%91%98%E5%BD%95/" term="摘录" label="摘录" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://zhssmy.website/tags/poem/" term="poem" label="poem" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">如何编辑一篇博文</title>
             <link rel="alternate" type="text/html" href="http://zhssmy.website/posts/%E5%A6%82%E4%BD%95%E7%BC%96%E8%BE%91%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/" />
@@ -13953,7 +14020,7 @@ totop:
                             
                             
                             
-                                <category scheme="http://zhssmy.website/tags/poem/" term="Poem" label="Poem" />
+                                <category scheme="http://zhssmy.website/tags/poem/" term="poem" label="poem" />
                             
                         
                     
@@ -14028,7 +14095,7 @@ totop:
                             
                             
                             
-                                <category scheme="http://zhssmy.website/tags/poem/" term="Poem" label="Poem" />
+                                <category scheme="http://zhssmy.website/tags/poem/" term="poem" label="poem" />
                             
                         
                     
