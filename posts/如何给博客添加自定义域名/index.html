@@ -14,11 +14,11 @@
 
     <title>如何给博客添加自定义域名 | 海上生明月</title>
 
-    <link rel="stylesheet" href="/css/meme.min.a2ffb605bf251fe17f67d53445f3669a022c07ec162f61a7c419bb94e6e5c6e3.css"/>
+    <link rel="stylesheet" href="/css/meme.min.7a075595e742edb6ae40e4aa99088ae6342c9f8ecb48cca9e3342ae91508ca88.css"/>
 
     
     
-        <script src="/js/meme.min.4c8facfc8134c52bd7bf6bbfa3a7e68b06b47ae04968222e28e7831f5b1a7592.js"></script>
+        <script src="/js/meme.min.74a59d29d4e531bc04ed0e21948b24e8e4ca5d88c215f63fed485739fd1e8e1b.js"></script>
 
     
 
@@ -547,6 +547,24 @@
 
 
         
+    
+
+        <div class="load-comments">
+            <div id="load-comments">加载评论</div>
+        </div>
+
+        
+            <div id="disqus_thread"></div>
+        
+
+        
+            <div id="vcomments"></div>
+        
+
+        
+
+    
+
 
 
     </div>
@@ -609,6 +627,91 @@
 
 
 
+
+    
+
+        
+            <script>
+    function loadComments() {
+        if (typeof DISQUS === 'undefined') {
+            var disqus_config = function() {
+                this.page.url = 'http:\/\/zhssmy.website\/posts\/%E5%A6%82%E4%BD%95%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D\/';
+                this.page.identifier = '\/posts\/%E5%A6%82%E4%BD%95%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D\/';
+                this.page.title = '如何给博客添加自定义域名';
+            };
+            (function() {
+                var d = document, s = d.createElement('script'); s.async = true;
+                s.src = 'https://.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        } else {
+            DISQUS.reset({
+                reload: true,
+                config: function() {
+                    this.page.url = 'http:\/\/zhssmy.website\/posts\/%E5%A6%82%E4%BD%95%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D\/';
+                    this.page.identifier = '\/posts\/%E5%A6%82%E4%BD%95%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D\/';
+                    this.page.title = '如何给博客添加自定义域名';
+                }
+            });
+        }
+    }
+</script>
+
+        
+
+        
+            <script>
+    function loadComments() {
+        if (typeof Valine === 'undefined') {
+            var getScript = (options) => {
+                var script = document.createElement('script');
+                script.defer = true;
+                script.crossOrigin = 'anonymous';
+                Object.keys(options).forEach((key) => {
+                    script[key] = options[key];
+                });
+                document.body.appendChild(script);
+            };
+            getScript({
+                src: 'https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js',
+                onload: () => {
+                    newValine();
+                }
+            });
+        } else {
+            newValine();
+        }
+    }
+    function newValine() {
+        new Valine({
+            el: '#vcomments',
+            appId: '3oLwkPjLzfsE3cf5GWu3nlpm-gzGzoHsz',
+            appKey: '8TRn2NeqYxBQGuW50VYnMpJf',
+            placeholder: 'Just go go',
+            path: location.pathname,
+            avatar: 'mm',
+            meta: ["nick","mail","link"],
+            pageSize:  10 ,
+            lang: 'zh-cn',
+            visitor:  false ,
+            highlight:  true ,
+            avatarForce:  false ,
+            recordIP:  false ,
+            serverURLs: '',
+            emojiCDN: '',
+            emojiMaps: {},
+            enableQQ:  false ,
+            requiredFields: []
+        });
+    }
+</script>
+
+        
+
+        
+
+    
 
 
 
