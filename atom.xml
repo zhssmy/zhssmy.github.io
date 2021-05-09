@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">海上生明月</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2021-04-23T18:30:38&#43;08:00</updated>
+    <updated>2021-05-09T15:23:29&#43;08:00</updated>
     <id>http://zhssmy.website/</id>
     <link rel="alternate" type="text/html" href="http://zhssmy.website/" />
     <link rel="self" type="application/atom&#43;xml" href="http://zhssmy.website/atom.xml" />
@@ -17,10 +17,234 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.81.0">Hugo</generator>
         <entry>
+            <title type="text">Vue3介绍</title>
+            <link rel="alternate" type="text/html" href="http://zhssmy.website/posts/vue3%E4%BB%8B%E7%BB%8D/" />
+            <id>http://zhssmy.website/posts/vue3%E4%BB%8B%E7%BB%8D/</id>
+            <updated>2021-05-09T15:20:38&#43;08:00</updated>
+            <published>2021-05-09T15:18:15&#43;08:00</published>
+            <author>
+                    <name>海上生明月</name>
+                    <uri>https://ztygcs.github.io/</uri>
+                    <email>zccon1996@163.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">一.cdn引入 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 https://unpkg.com/vue@3.0.10/dist/vue.global.js &amp;lt;div id=&amp;#34;app&amp;#34;&amp;gt; x:{{position.x}}&amp;lt;br/&amp;gt; y:{{position.y}} &amp;lt;/div&amp;gt; &amp;lt;script src=&amp;#34;https://unpkg.com/vue@3.0.10/dist/vue.global.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script&amp;gt; const app = Vue.createApp({ setup(){ const position={ x:0, y:0 } return { position } }, }); app.mount(&amp;#39;#app&amp;#39;); &amp;lt;/script&amp;gt; 二.创建Vue3项目 创建Vue3的3种方式 Vue-CLI Webpack Vite Vite是Vue作者开发的一款意图取代webpack的工具 其实……</summary>
+            
+                <content type="html">&lt;h3 id=&#34;一cdn引入&#34;&gt;一.cdn引入&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;nx&#34;&gt;https&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//unpkg.com/vue@3.0.10/dist/vue.global.js
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;app&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+   &lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;position&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;br&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&amp;gt;&lt;/span&gt;
+   &lt;span class=&#34;nx&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;position&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}}&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;https://unpkg.com/vue@3.0.10/dist/vue.global.js&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+   &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;app&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Vue&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createApp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt;
+         &lt;span class=&#34;nx&#34;&gt;setup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;
+         &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;position&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+         	&lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+         	&lt;span class=&#34;nx&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+         &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+         &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+         	&lt;span class=&#34;nx&#34;&gt;position&lt;/span&gt;
+         &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;       
+      &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+   &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+   &lt;span class=&#34;nx&#34;&gt;app&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;mount&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;#app&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;二创建vue3项目&#34;&gt;二.创建Vue3项目&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;创建Vue3的3种方式
+&lt;ul&gt;
+&lt;li&gt;Vue-CLI&lt;/li&gt;
+&lt;li&gt;Webpack&lt;/li&gt;
+&lt;li&gt;Vite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Vite是Vue作者开发的一款意图取代webpack的工具&lt;/li&gt;
+&lt;li&gt;其实现原理是利用ES6的import会发送请求去加载文件的特性,
+拦截这些请求, 做一些预编译, 省去webpack冗长的打包时间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;- 安装Vite
+    npm install -g create-vite-app
+- 利用Vite创建Vue3项目
+    create-vite-app projectName
+- 安装依赖运行项目
+    cd projectName
+    npm install
+    npm run dev
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;或者&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  npm init vite-app &amp;lt;project-name&amp;gt;
+  cd &amp;lt;project-name&amp;gt;
+  npm install
+  npm run dev
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;三创建vue30实例-createapp&#34;&gt;三.创建vue3.0实例-createApp&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;createApp介绍
+返回一个提供应用上下文的应用实例。应用实例挂载的整个组件树共享同一个上下文。可以在 createApp 之后链式调用其它方法。该函数第一个参数接收一个根组件选项的对象，第二个参数可以将 props 传递给应用程序.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;nx&#34;&gt;createApp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;App&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;nx&#34;&gt;username&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;张三&amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 提供 props，App 组件内部通过 props: [&amp;#39;username&amp;#39;] 接收
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;mount&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;#app&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;createApp在main.js中的使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kr&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;createApp&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;vue&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;kr&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;App&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;./App.vue&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;kr&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;router&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;./router&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;kr&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;store&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;./store&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;kr&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;./App.scss&amp;#39;&lt;/span&gt;
+
+&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;app&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;createApp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;App&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;app&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;use&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;router&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;use&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;store&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;mount&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;#app&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;四template模板使用变化&#34;&gt;四.template模板使用变化&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;vue2.0里 template模板里只能有一个根标签, 而3.0可以使用多个根标签&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;五vue30七大亮点&#34;&gt;五.Vue3.0七大亮点&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Performance：性能比Vue 2.x快1.2~2倍，在&lt;code&gt;Vue3.0&lt;/code&gt;中使用&lt;code&gt;Proxy&lt;/code&gt;重写了响应式的代码，并且对编译器做了一定的优化，重写了虚拟&lt;code&gt;DOM&lt;/code&gt;,让渲染有了很大的性能提升&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tree shaking support：按需编译,体积比Vue2.x更小&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Composition API: 增加了组合API(类似React Hooks)，90%的&lt;code&gt;API&lt;/code&gt;还是兼容&lt;code&gt;2.x&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Better TypeScript support：更好的 Ts 支持，&lt;code&gt;Vue3.0&lt;/code&gt;全部使用&lt;code&gt;TypeScript&lt;/code&gt;进行重写&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Custom Renderer API：暴露了自定义渲染API&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fragment, Teleport(Protal), Suspense：更先进的组件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vite：使用该工具，在开发阶段，不需要进行打包，直接运行项目，提升了开发的效率&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;六vue30源码组织&#34;&gt;六.vue3.0源码组织&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;images/%E6%BA%90%E7%A0%81%E7%BB%84%E7%BB%87%E7%BB%93%E6%9E%84.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以看到最开始是以&lt;code&gt;compiler&lt;/code&gt;开头的包，这些都是与编译相关的代码&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;compiler-core&lt;/code&gt;是与平台无关的编译器&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;compiler-dom&lt;/code&gt;是浏览器平台下的编译器，依赖于&lt;code&gt;compiler-core&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;compiler-sfc&lt;/code&gt;:用来编译单文件组件，依赖于&lt;code&gt;compiler-core&lt;/code&gt;与&lt;code&gt;compiler-dom&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;compiler-ssr&lt;/code&gt;:是服务端渲染的编译器，依赖于&lt;code&gt;compiler-dom&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;reactivity&lt;/code&gt;:数据响应式系统&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;runtime-core&lt;/code&gt;:是与平台无关的运行时&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;runtime-dom&lt;/code&gt;:是针对浏览器的运行时，用来处理元素&lt;code&gt;DOM&lt;/code&gt;的&lt;code&gt;api&lt;/code&gt;和事件等&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;runtime-test&lt;/code&gt;:进行测试的运行时&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;server-renderer&lt;/code&gt;：进行服务端渲染&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;shared&lt;/code&gt;:是&lt;code&gt;VUE&lt;/code&gt;内部使用的一些公共的&lt;code&gt;API&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;size-check&lt;/code&gt;:是一个私有的包，用来检查包的大小&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;template-explorer&lt;/code&gt;:是在浏览器中运行的实时编译组件，会输出&lt;code&gt;render&lt;/code&gt;函数&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Vue&lt;/code&gt;构建完整版的&lt;code&gt;Vue&lt;/code&gt;,依赖于&lt;code&gt;compiler&lt;/code&gt;与&lt;code&gt;runtime&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://zhssmy.website/categories/tech/" term="TECH" label="TECH" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="http://zhssmy.website/categories/%E5%89%8D%E7%AB%AF/" term="前端" label="前端" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="http://zhssmy.website/categories/vue3%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D/" term="vue3基础介绍" label="vue3基础介绍" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://zhssmy.website/tags/vue/" term="vue" label="vue" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
             <title type="text">Vue3.0新特性</title>
             <link rel="alternate" type="text/html" href="http://zhssmy.website/posts/vue3.0%E6%96%B0%E7%89%B9%E6%80%A7/" />
             <id>http://zhssmy.website/posts/vue3.0%E6%96%B0%E7%89%B9%E6%80%A7/</id>
-            <updated>2021-04-23T18:21:48&#43;08:00</updated>
+            <updated>2021-05-09T15:17:20&#43;08:00</updated>
             <published>2021-04-23T17:52:56&#43;08:00</published>
             <author>
                     <name>海上生明月</name>
